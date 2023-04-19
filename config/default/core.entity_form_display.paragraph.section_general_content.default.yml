@@ -1,0 +1,25 @@
+uuid: 89b197a8-81f3-4c57-85fd-161d94f40e07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_general_content.field_description
+    - paragraphs.paragraphs_type.section_general_content
+  module:
+    - text
+id: paragraph.section_general_content.default
+targetEntityType: paragraph
+bundle: section_general_content
+mode: default
+content:
+  field_description:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

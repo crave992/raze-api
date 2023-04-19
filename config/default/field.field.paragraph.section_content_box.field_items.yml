@@ -1,0 +1,172 @@
+uuid: 12a2ca54-5c13-4833-a104-00fd9b52832f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_items
+    - paragraphs.paragraphs_type.group_image_link
+    - paragraphs.paragraphs_type.section_content_box
+  module:
+    - entity_reference_revisions
+id: paragraph.section_content_box.field_items
+field_name: field_items
+entity_type: paragraph
+bundle: section_content_box
+label: Items
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      group_image_link: group_image_link
+    negate: 0
+    target_bundles_drag_drop:
+      feature:
+        weight: 49
+        enabled: false
+      from_library:
+        weight: 50
+        enabled: false
+      group_full_stack:
+        weight: 51
+        enabled: false
+      group_image_link:
+        weight: 52
+        enabled: true
+      group_image_title:
+        weight: 53
+        enabled: false
+      group_image_title_description:
+        weight: 54
+        enabled: false
+      menu_block:
+        weight: 55
+        enabled: false
+      menu_blocks:
+        weight: 56
+        enabled: false
+      product_section_feature:
+        weight: 57
+        enabled: false
+      product_section_highlight:
+        weight: 58
+        enabled: false
+      product_section_how_it_works:
+        weight: 59
+        enabled: false
+      product_section_related:
+        weight: 60
+        enabled: false
+      section_all_showcase:
+        weight: 61
+        enabled: false
+      section_banner:
+        weight: 62
+        enabled: false
+      section_certificate:
+        weight: 63
+        enabled: false
+      section_client_speak:
+        weight: 65
+        enabled: false
+      section_clients:
+        weight: 64
+        enabled: false
+      section_contact_us:
+        weight: 66
+        enabled: false
+      section_content_box:
+        weight: 67
+        enabled: false
+      section_cta:
+        weight: 68
+        enabled: false
+      section_cta_2:
+        weight: 69
+        enabled: false
+      section_explore_more:
+        weight: 70
+        enabled: false
+      section_faq:
+        weight: 71
+        enabled: false
+      section_feature_list:
+        weight: 73
+        enabled: false
+      section_featured_articles:
+        weight: 72
+        enabled: false
+      section_gallery:
+        weight: 74
+        enabled: false
+      section_homepage_banner:
+        weight: 75
+        enabled: false
+      section_introduction:
+        weight: 76
+        enabled: false
+      section_latest_news:
+        weight: 77
+        enabled: false
+      section_other_showcase:
+        weight: 78
+        enabled: false
+      section_our_technology:
+        weight: 79
+        enabled: false
+      section_our_vision:
+        weight: 80
+        enabled: false
+      section_product_by_type:
+        weight: 81
+        enabled: false
+      section_product_special:
+        weight: 82
+        enabled: false
+      section_responsibility:
+        weight: 83
+        enabled: false
+      section_services:
+        weight: 84
+        enabled: false
+      section_showcase_banner:
+        weight: 85
+        enabled: false
+      section_slider:
+        weight: 86
+        enabled: false
+      section_solutions:
+        weight: 87
+        enabled: false
+      section_tabs:
+        weight: 88
+        enabled: false
+      section_testimonials:
+        weight: 89
+        enabled: false
+      section_we_provide:
+        weight: 90
+        enabled: false
+      solution:
+        weight: 91
+        enabled: false
+      speak:
+        weight: 92
+        enabled: false
+      stripe_card_token:
+        weight: 93
+        enabled: false
+      tab:
+        weight: 94
+        enabled: false
+      tab_image_text:
+        weight: 95
+        enabled: false
+      testimonial:
+        weight: 96
+        enabled: false
+field_type: entity_reference_revisions

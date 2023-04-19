@@ -1,0 +1,6 @@
+services:
+  rhm_breadcrumb:
+    class: Drupal\rhm_rest\RhmRestBreadCrumbBuilder
+    arguments: ['@router.request_context', '@access_manager', '@router', '@path_processor_manager', '@config.factory',  '@title_resolver', '@current_user', '@path.current', '@path.matcher']
+  rhm_rest_util:
+    class: Drupal\rhm_rest\RhmRestUtil

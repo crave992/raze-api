@@ -1,0 +1,102 @@
+uuid: d2289563-1bfb-4dd9-94e7-aba2d8f53029
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.mask
+    - field.field.commerce_product_variation.mask.attribute_size
+    - field.field.commerce_product_variation.mask.field_media_images
+    - field.field.commerce_product_variation.mask.field_stock
+    - field.field.commerce_product_variation.mask.weight
+  module:
+    - commerce_price
+    - commerce_stock_field
+    - media_library
+    - physical
+id: commerce_product_variation.mask.default
+targetEntityType: commerce_product_variation
+bundle: mask
+mode: default
+content:
+  attribute_size:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  commerce_stock_always_in_stock:
+    type: boolean_checkbox
+    weight: 5
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_media_images:
+    type: media_library_widget
+    weight: 93
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_stock:
+    type: commerce_stock_level_simple_transaction
+    weight: 92
+    region: content
+    settings:
+      step: '1'
+      custom_transaction_note: false
+      default_transaction_note: 'Transaction issued by stock level field.'
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  list_price:
+    type: commerce_list_price
+    weight: -1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  price:
+    type: commerce_price_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  sku:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 90
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  weight:
+    type: physical_measurement_default
+    weight: 91
+    region: content
+    settings:
+      default_unit: ''
+      allow_unit_change: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

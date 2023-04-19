@@ -1,0 +1,18 @@
+uuid: 72a2a49d-a467-4ada-bea5-9367fdf63002
+langcode: en
+status: true
+dependencies:
+  module:
+    - rhm_store
+    - serialization
+    - user
+id: rhm_store_get_address
+plugin_id: rhm_store_get_address
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

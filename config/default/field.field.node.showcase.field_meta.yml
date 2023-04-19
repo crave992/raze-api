@@ -1,0 +1,21 @@
+uuid: 712237bc-7c48-4958-b147-3141b91b880c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta
+    - node.type.showcase
+  module:
+    - metatag
+id: node.showcase.field_meta
+field_name: field_meta
+entity_type: node
+bundle: showcase
+label: Meta
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

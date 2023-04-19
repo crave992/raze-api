@@ -1,0 +1,18 @@
+uuid: f828d73a-f55f-4e2a-af00-fe22700ccdd6
+langcode: en
+status: true
+dependencies:
+  module:
+    - rhm_store
+    - serialization
+    - user
+id: rhm_store_stripe_checkout
+plugin_id: rhm_store_stripe_checkout
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie

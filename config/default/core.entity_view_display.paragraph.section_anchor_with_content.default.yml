@@ -1,0 +1,24 @@
+uuid: 805d8dd8-c3a4-4f75-b964-122d0e1a43f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_anchor_with_content.field_anchor_content
+    - paragraphs.paragraphs_type.section_anchor_with_content
+  module:
+    - entity_reference_revisions
+id: paragraph.section_anchor_with_content.default
+targetEntityType: paragraph
+bundle: section_anchor_with_content
+mode: default
+content:
+  field_anchor_content:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

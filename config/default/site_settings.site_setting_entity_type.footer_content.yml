@@ -1,0 +1,8 @@
+uuid: 815abfc6-d923-4300-a0ac-665f285c69e5
+langcode: en
+status: true
+dependencies: {  }
+id: footer_content
+label: 'Footer Content'
+fieldset: 'Footer Content'
+multiple: false

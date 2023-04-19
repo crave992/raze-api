@@ -1,0 +1,10 @@
+uuid: e8ad9e5c-6c6a-4ded-a489-36e10f984cad
+langcode: en
+status: true
+dependencies: {  }
+id: section_introduction
+label: 'Section Introduction'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

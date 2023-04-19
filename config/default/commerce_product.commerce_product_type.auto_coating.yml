@@ -1,0 +1,12 @@
+uuid: 7f185d73-9767-4c43-9099-b6168ae25230
+langcode: en
+status: true
+dependencies: {  }
+id: auto_coating
+label: 'Auto Coating'
+traits: {  }
+locked: false
+description: ''
+variationType: auto_coating
+multipleVariations: true
+injectVariationFields: true

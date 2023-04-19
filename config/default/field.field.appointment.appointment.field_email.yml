@@ -1,0 +1,19 @@
+uuid: cb68b543-f591-440f-86c4-ea0f4b0ea562
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.appointment.appointment
+    - field.storage.appointment.field_email
+id: appointment.appointment.field_email
+field_name: field_email
+entity_type: appointment
+bundle: appointment
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

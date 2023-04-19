@@ -1,0 +1,18 @@
+uuid: 3aa42b18-9637-4ef4-97fd-1eeae667f89c
+langcode: en
+status: false
+dependencies:
+  module:
+    - serialization
+    - site_settings
+    - user
+id: entity.site_setting_entity
+plugin_id: 'entity:site_setting_entity'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

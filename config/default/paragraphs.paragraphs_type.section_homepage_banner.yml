@@ -1,0 +1,10 @@
+uuid: c2ee6f72-0801-4560-8924-89b7333e3f2e
+langcode: en
+status: true
+dependencies: {  }
+id: section_homepage_banner
+label: 'Section Homepage Banner'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

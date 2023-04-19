@@ -1,0 +1,10 @@
+uuid: 28b4b2ea-664b-47e3-baef-daf8eecd1f77
+langcode: en
+status: true
+dependencies: {  }
+id: section_product_special
+label: 'Section Product Special'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

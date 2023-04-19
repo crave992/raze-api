@@ -1,0 +1,8 @@
+uuid: 2eae4645-f396-41c5-b0e5-6d70727c798d
+langcode: en
+status: true
+dependencies: {  }
+id: global_link
+label: 'Global Link'
+fieldset: 'Global Link'
+multiple: false

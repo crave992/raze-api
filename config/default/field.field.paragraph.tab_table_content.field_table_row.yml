@@ -1,0 +1,184 @@
+uuid: 6e299ef1-ab11-4752-bdb0-f4c62dfb40da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_table_row
+    - paragraphs.paragraphs_type.tab_table_content
+    - paragraphs.paragraphs_type.table_row
+  module:
+    - entity_reference_revisions
+id: paragraph.tab_table_content.field_table_row
+field_name: field_table_row
+entity_type: paragraph
+bundle: tab_table_content
+label: 'Table Row'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      table_row: table_row
+    negate: 0
+    target_bundles_drag_drop:
+      feature:
+        weight: 53
+        enabled: false
+      from_library:
+        weight: 54
+        enabled: false
+      group_full_stack:
+        weight: 55
+        enabled: false
+      group_image_link:
+        weight: 56
+        enabled: false
+      group_image_title:
+        weight: 57
+        enabled: false
+      group_image_title_description:
+        weight: 58
+        enabled: false
+      menu_block:
+        weight: 59
+        enabled: false
+      menu_blocks:
+        weight: 60
+        enabled: false
+      product_section_feature:
+        weight: 61
+        enabled: false
+      product_section_highlight:
+        weight: 62
+        enabled: false
+      product_section_how_it_works:
+        weight: 63
+        enabled: false
+      product_section_related:
+        weight: 64
+        enabled: false
+      section_all_showcase:
+        weight: 65
+        enabled: false
+      section_banner:
+        weight: 66
+        enabled: false
+      section_certificate:
+        weight: 67
+        enabled: false
+      section_client_speak:
+        weight: 69
+        enabled: false
+      section_clients:
+        weight: 68
+        enabled: false
+      section_contact_us:
+        weight: 70
+        enabled: false
+      section_content_box:
+        weight: 71
+        enabled: false
+      section_cta:
+        weight: 72
+        enabled: false
+      section_cta_2:
+        weight: 73
+        enabled: false
+      section_explore_more:
+        weight: 74
+        enabled: false
+      section_faq:
+        weight: 75
+        enabled: false
+      section_feature_list:
+        weight: 77
+        enabled: false
+      section_featured_articles:
+        weight: 76
+        enabled: false
+      section_gallery:
+        weight: 78
+        enabled: false
+      section_homepage_banner:
+        weight: 79
+        enabled: false
+      section_introduction:
+        weight: 80
+        enabled: false
+      section_latest_news:
+        weight: 81
+        enabled: false
+      section_other_showcase:
+        weight: 82
+        enabled: false
+      section_our_technology:
+        weight: 83
+        enabled: false
+      section_our_vision:
+        weight: 84
+        enabled: false
+      section_product_by_type:
+        weight: 85
+        enabled: false
+      section_product_special:
+        weight: 86
+        enabled: false
+      section_responsibility:
+        weight: 87
+        enabled: false
+      section_services:
+        weight: 88
+        enabled: false
+      section_showcase_banner:
+        weight: 89
+        enabled: false
+      section_slider:
+        weight: 90
+        enabled: false
+      section_solutions:
+        weight: 91
+        enabled: false
+      section_table_with_introduction:
+        weight: 92
+        enabled: false
+      section_tabs:
+        weight: 93
+        enabled: false
+      section_testimonials:
+        weight: 94
+        enabled: false
+      section_we_provide:
+        weight: 95
+        enabled: false
+      solution:
+        weight: 96
+        enabled: false
+      speak:
+        weight: 97
+        enabled: false
+      stripe_card_token:
+        weight: 98
+        enabled: false
+      tab:
+        weight: 99
+        enabled: false
+      tab_image_text:
+        weight: 101
+        enabled: false
+      tab_table:
+        weight: 102
+        enabled: false
+      tab_table_content:
+        weight: 103
+        enabled: false
+      table_row:
+        weight: 100
+        enabled: true
+      testimonial:
+        weight: 104
+        enabled: false
+field_type: entity_reference_revisions

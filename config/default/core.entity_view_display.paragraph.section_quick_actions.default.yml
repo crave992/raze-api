@@ -1,0 +1,33 @@
+uuid: 9e7b2c6f-a6a4-4237-8691-230f5d2e6e95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_quick_actions.field_quick_action
+    - field.field.paragraph.section_quick_actions.field_title
+    - paragraphs.paragraphs_type.section_quick_actions
+  module:
+    - entity_reference_revisions
+id: paragraph.section_quick_actions.default
+targetEntityType: paragraph
+bundle: section_quick_actions
+mode: default
+content:
+  field_quick_action:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

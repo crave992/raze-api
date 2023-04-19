@@ -1,0 +1,49 @@
+uuid: 756bf4f7-ae9e-4f7e-8b6d-7e25fd8d307f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.menu_link_content.field_menu_blocks
+    - paragraphs.paragraphs_type.menu_blocks
+    - system.menu.main
+  module:
+    - entity_reference_revisions
+id: menu_link_content.main.field_menu_blocks
+field_name: field_menu_blocks
+entity_type: menu_link_content
+bundle: main
+label: 'Menu Blocks'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      menu_blocks: menu_blocks
+    negate: 0
+    target_bundles_drag_drop:
+      menu_block:
+        weight: 8
+        enabled: false
+      menu_blocks:
+        weight: 9
+        enabled: true
+      products:
+        weight: 10
+        enabled: false
+      section_featured_articles:
+        weight: 11
+        enabled: false
+      section_homepage_banner:
+        weight: 12
+        enabled: false
+      stripe_card_token:
+        weight: 13
+        enabled: false
+      test_paragraph:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,17 @@
+uuid: 00174d24-dbce-44a3-9734-f4b39612f25a
+langcode: en
+status: true
+dependencies:
+  module:
+    - rest_register_verify_email
+    - serialization
+id: resend_token_email_resource
+plugin_id: resend_token_email_resource
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - Na

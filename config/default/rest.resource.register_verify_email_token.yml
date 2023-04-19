@@ -1,0 +1,17 @@
+uuid: 56772cdf-d9ea-43e4-a1ed-a0ac63a453f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - rest_register_verify_email
+    - serialization
+id: register_verify_email_token
+plugin_id: register_verify_email_token
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - Na

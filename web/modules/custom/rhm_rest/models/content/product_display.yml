@@ -1,0 +1,16 @@
+title:
+  value
+body:
+  value
+field_media_image:
+  getMedia
+field_product:
+  getProduct
+field_sections:
+  getParagraph
+field_product_type:
+  getReference:
+    name:
+      value
+    field_slug:
+      value

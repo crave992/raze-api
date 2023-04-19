@@ -1,0 +1,29 @@
+uuid: f563fdef-6ba7-4791-bdda-6ab6f447b3d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_product_type
+    - paragraphs.paragraphs_type.section_product_by_type
+    - taxonomy.vocabulary.product_type
+id: paragraph.section_product_by_type.field_product_type
+field_name: field_product_type
+entity_type: paragraph
+bundle: section_product_by_type
+label: 'Product Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      product_type: product_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

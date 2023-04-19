@@ -1,0 +1,22 @@
+uuid: d4838411-d0b2-4b2d-bed4-3c01a50e6587
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_stock_local.commerce_stock_location_type.default
+id: commerce_stock_location.default.status
+field_name: status
+entity_type: commerce_stock_location
+bundle: default
+label: Status
+description: 'Whether the stock location is active.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

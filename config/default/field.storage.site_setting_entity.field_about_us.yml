@@ -1,0 +1,19 @@
+uuid: 2087e193-566f-4f3e-9386-bee0965eed98
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - site_settings
+id: site_setting_entity.field_about_us
+field_name: field_about_us
+entity_type: site_setting_entity
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

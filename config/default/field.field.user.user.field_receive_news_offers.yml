@@ -1,0 +1,24 @@
+uuid: 4190d4b0-c172-4776-8683-f1e3895c7eb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_receive_news_offers
+  module:
+    - user
+id: user.user.field_receive_news_offers
+field_name: field_receive_news_offers
+entity_type: user
+bundle: user
+label: 'Receive News & Offers'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

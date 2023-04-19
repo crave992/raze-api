@@ -1,0 +1,33 @@
+uuid: f0b257a7-aced-4e8e-84f4-a6f49786ad91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_solutions.field_headline
+    - field.field.paragraph.section_solutions.field_solutions
+    - paragraphs.paragraphs_type.section_solutions
+  module:
+    - entity_reference_revisions
+id: paragraph.section_solutions.default
+targetEntityType: paragraph
+bundle: section_solutions
+mode: default
+content:
+  field_headline:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_solutions:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

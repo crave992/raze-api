@@ -1,0 +1,19 @@
+uuid: 8fe0d4eb-8605-4556-84f1-172094a38369
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.appointment.appointment
+    - field.storage.appointment.field_district
+id: appointment.appointment.field_district
+field_name: field_district
+entity_type: appointment
+bundle: appointment
+label: District
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

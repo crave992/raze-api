@@ -1,0 +1,86 @@
+uuid: 68e63946-1966-41ad-8b70-1975a66a6e23
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+    - rest.resource.lost_password_reset
+    - rest.resource.register_verify_email_resource
+    - rest.resource.register_verify_email_token
+    - rest.resource.resend_token_email_resource
+    - rest.resource.rest_menu_item
+    - rest.resource.rhm_alias
+    - rest.resource.rhm_alias_list
+    - rest.resource.rhm_articles
+    - rest.resource.rhm_certificates
+    - rest.resource.rhm_contact_us_form
+    - rest.resource.rhm_load_user
+    - rest.resource.rhm_menu
+    - rest.resource.rhm_refresh_logout_token
+    - rest.resource.rhm_showcases
+    - rest.resource.rhm_site_settings
+    - rest.resource.rhm_store_appointment
+    - rest.resource.rhm_store_get_address
+    - rest.resource.rhm_store_get_cards
+    - rest.resource.rhm_store_get_orders
+    - rest.resource.rhm_store_locator
+    - rest.resource.rhm_store_promo
+    - rest.resource.rhm_store_save_address
+    - rest.resource.rhm_store_shipping
+    - rest.resource.rhm_store_stripe_checkout
+    - rest.resource.rhm_term_load_tree
+    - rest.resource.user_registration
+  module:
+    - comment
+    - commerce_checkout
+    - commerce_product
+    - commerce_shipping
+    - contact
+    - filter
+    - media
+    - rest
+    - search
+    - system
+_core:
+  default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access checkout'
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'administer rest resources'
+  - 'restful get rest_menu_item'
+  - 'restful get rhm_alias'
+  - 'restful get rhm_alias_list'
+  - 'restful get rhm_articles'
+  - 'restful get rhm_certificates'
+  - 'restful get rhm_load_user'
+  - 'restful get rhm_menu'
+  - 'restful get rhm_refresh_logout_token'
+  - 'restful get rhm_showcases'
+  - 'restful get rhm_site_settings'
+  - 'restful get rhm_store_get_address'
+  - 'restful get rhm_store_get_cards'
+  - 'restful get rhm_store_get_orders'
+  - 'restful get rhm_store_locator'
+  - 'restful get rhm_term_load_tree'
+  - 'restful post lost_password_reset'
+  - 'restful post register_verify_email_resource'
+  - 'restful post register_verify_email_token'
+  - 'restful post resend_token_email_resource'
+  - 'restful post rhm_contact_us_form'
+  - 'restful post rhm_store_appointment'
+  - 'restful post rhm_store_promo'
+  - 'restful post rhm_store_save_address'
+  - 'restful post rhm_store_shipping'
+  - 'restful post rhm_store_stripe_checkout'
+  - 'restful post user_registration'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view commerce_product'
+  - 'view commerce_shipping_method'
+  - 'view media'

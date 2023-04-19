@@ -1,0 +1,21 @@
+uuid: 2e1a6303-e61d-4175-a847-c074ed49b185
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_period
+field_name: field_period
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

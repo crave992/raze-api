@@ -1,0 +1,19 @@
+uuid: c70f2045-685f-4bac-a73b-011fc8785177
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.contact_us_form.contact_us_form_data
+    - field.storage.contact_us_form.field_email
+id: contact_us_form.contact_us_form_data.field_email
+field_name: field_email
+entity_type: contact_us_form
+bundle: contact_us_form_data
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

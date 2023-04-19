@@ -1,0 +1,18 @@
+uuid: ad8e88bb-17c9-413c-9a2f-60a7c267dfd1
+langcode: en
+status: true
+dependencies:
+  module:
+    - rhm_rest
+    - serialization
+    - user
+id: rhm_showcases
+plugin_id: rhm_showcases
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

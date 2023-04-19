@@ -1,0 +1,48 @@
+uuid: 180a2288-2ef5-4317-82ed-e3a07ee7cbad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_latest_news.field_headline
+    - field.field.paragraph.section_latest_news.field_link
+    - field.field.paragraph.section_latest_news.field_title
+    - paragraphs.paragraphs_type.section_latest_news
+  module:
+    - link
+id: paragraph.section_latest_news.default
+targetEntityType: paragraph
+bundle: section_latest_news
+mode: default
+content:
+  field_headline:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_link:
+    type: link_default
+    weight: 12
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,18 @@
+uuid: da80abaa-e96a-4d4c-9388-26b90415e3e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.size
+id: commerce_product_attribute_value.size.created
+field_name: created
+entity_type: commerce_product_attribute_value
+bundle: size
+label: Created
+description: 'The time when the attribute value was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

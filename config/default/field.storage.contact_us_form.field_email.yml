@@ -1,0 +1,18 @@
+uuid: 98d5a7bc-74ee-43dc-894b-1e1b13a6aeec
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: contact_us_form.field_email
+field_name: field_email
+entity_type: contact_us_form
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

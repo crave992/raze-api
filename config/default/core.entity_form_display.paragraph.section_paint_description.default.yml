@@ -1,0 +1,49 @@
+uuid: fd7928aa-49f7-43fc-b549-bcc6addbdc44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_paint_description.field_paints
+    - field.field.paragraph.section_paint_description.field_title
+    - paragraphs.paragraphs_type.section_paint_description
+  module:
+    - paragraphs
+id: paragraph.section_paint_description.default
+targetEntityType: paragraph
+bundle: section_paint_description
+mode: default
+content:
+  field_paints:
+    type: paragraphs
+    weight: 11
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

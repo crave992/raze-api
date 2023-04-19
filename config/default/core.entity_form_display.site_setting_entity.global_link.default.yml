@@ -1,0 +1,70 @@
+uuid: b3d015a4-3ae2-451c-8d86-602ae549fd5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.site_setting_entity.global_link.field_about_us
+    - field.field.site_setting_entity.global_link.field_store_link
+    - site_settings.site_setting_entity_type.global_link
+  module:
+    - link
+id: site_setting_entity.global_link.default
+targetEntityType: site_setting_entity
+bundle: global_link
+mode: default
+content:
+  field_about_us:
+    type: link_default
+    weight: 12
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_store_link:
+    type: link_default
+    weight: 11
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  fieldset:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 10
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

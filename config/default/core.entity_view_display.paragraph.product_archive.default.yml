@@ -1,0 +1,33 @@
+uuid: 05dcb18f-dc64-4a08-a3c7-3cfe16a23a80
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.product_archive.field_items
+    - field.field.paragraph.product_archive.field_title
+    - paragraphs.paragraphs_type.product_archive
+  module:
+    - entity_reference_revisions
+id: paragraph.product_archive.default
+targetEntityType: paragraph
+bundle: product_archive
+mode: default
+content:
+  field_items:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,10 @@
+uuid: 346bf22b-2ec1-41ed-abf8-e44029e44252
+langcode: en
+status: true
+dependencies: {  }
+id: section_other_showcase
+label: 'Section Other Showcase'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

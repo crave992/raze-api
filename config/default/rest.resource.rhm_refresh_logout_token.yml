@@ -1,0 +1,18 @@
+uuid: b7130571-a00a-4c26-997e-8b4eae1f1404
+langcode: en
+status: true
+dependencies:
+  module:
+    - rhm_rest
+    - serialization
+    - user
+id: rhm_refresh_logout_token
+plugin_id: rhm_refresh_logout_token
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

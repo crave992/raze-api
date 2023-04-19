@@ -1,0 +1,10 @@
+uuid: 3cffb3e6-aa27-4694-8a1f-1050546f04e0
+langcode: en
+status: true
+dependencies: {  }
+id: section_certificate
+label: 'Section Certificate'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

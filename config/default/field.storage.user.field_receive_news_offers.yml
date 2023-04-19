@@ -1,0 +1,18 @@
+uuid: a08c0122-6d1e-4318-93d9-eadaad29b59e
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_receive_news_offers
+field_name: field_receive_news_offers
+entity_type: user
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

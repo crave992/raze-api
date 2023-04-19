@@ -1,0 +1,58 @@
+# This is a sample build configuration for PHP.
+# Check our guides at https://confluence.atlassian.com/x/e8YWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+
+image: drupal:8
+definitions:
+  steps:
+    - step: &Build-step
+        name: Build
+        caches:
+          - composer
+        script:
+          - apt-get update && apt-get install -y unzip
+          - apt-get install -y unzip git
+          - apt-get install -y libxml2-dev php-soap && apt-get clean -y && docker-php-ext-install soap
+          - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+          - composer install --ignore-platform-reqs
+        artifacts:
+          - vendor/**
+          - web/core/**
+          - web/themes/contrib/**
+          - web/modules/contrib/**
+    - step: &Deploy-step
+        name: Deploy
+        script:
+          - pipe: atlassian/rsync-deploy:0.4.3
+            variables:
+              USER: $USER
+              SERVER: $SERVER
+              REMOTE_PATH: $REMOTE_PATH
+              LOCAL_PATH: '.'
+              EXTRA_ARGS: '--exclude-from=deployment-exclude-list.txt --links'
+          - pipe: atlassian/ssh-run:0.2.6
+            variables:
+              SSH_USER: $USER
+              SERVER: $SERVER
+              COMMAND: "cd $REMOTE_PATH && ./vendor/bin/drush cr && ./vendor/bin/drush updb -y && ./vendor/bin/drush cim -y"
+
+pipelines:
+  branches:
+    development:
+      - step: *Build-step
+      - step:
+          <<: *Deploy-step
+          deployment: test
+    staging:
+      - step: *Build-step
+      - step:
+          <<: *Deploy-step
+          deployment: staging
+    master:
+      - step: *Build-step
+      - step:
+          trigger: manual
+          <<: *Deploy-step
+          deployment: production

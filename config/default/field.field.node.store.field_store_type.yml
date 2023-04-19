@@ -1,0 +1,33 @@
+uuid: edc0b5c6-4e39-4b2e-8f60-78def8df7586
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_store_type
+    - node.type.store
+    - taxonomy.vocabulary.store_type
+  content:
+    - 'taxonomy_term:store_type:1bc50ea8-f3c2-4fb7-b3f6-b5377c06f851'
+id: node.store.field_store_type
+field_name: field_store_type
+entity_type: node
+bundle: store
+label: 'Store Type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: 1bc50ea8-f3c2-4fb7-b3f6-b5377c06f851
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      store_type: store_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

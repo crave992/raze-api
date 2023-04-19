@@ -1,0 +1,10 @@
+uuid: 2626f898-5656-4d0f-966f-5d00a78a3fc8
+langcode: en
+status: true
+dependencies: {  }
+id: section_solutions
+label: 'Section Solutions'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

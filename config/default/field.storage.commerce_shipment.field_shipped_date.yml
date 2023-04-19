@@ -1,0 +1,20 @@
+uuid: 8acb98ea-74d3-4723-9acc-23c87e673a16
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_shipping
+    - datetime
+id: commerce_shipment.field_shipped_date
+field_name: field_shipped_date
+entity_type: commerce_shipment
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

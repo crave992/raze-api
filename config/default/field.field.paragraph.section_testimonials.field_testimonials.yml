@@ -1,0 +1,85 @@
+uuid: 26dcc6c3-7e30-46ff-b69d-6592017bf604
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_testimonials
+    - paragraphs.paragraphs_type.section_testimonials
+    - paragraphs.paragraphs_type.testimonial
+  module:
+    - entity_reference_revisions
+id: paragraph.section_testimonials.field_testimonials
+field_name: field_testimonials
+entity_type: paragraph
+bundle: section_testimonials
+label: Testimonials
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      testimonial: testimonial
+    negate: 0
+    target_bundles_drag_drop:
+      feature:
+        weight: 20
+        enabled: false
+      group_image_title_description:
+        weight: 21
+        enabled: false
+      menu_block:
+        weight: 22
+        enabled: false
+      menu_blocks:
+        weight: 23
+        enabled: false
+      product_section_feature:
+        weight: 25
+        enabled: false
+      product_section_related:
+        weight: 26
+        enabled: false
+      products:
+        weight: 24
+        enabled: false
+      section_featured_articles:
+        weight: 27
+        enabled: false
+      section_homepage_banner:
+        weight: 28
+        enabled: false
+      section_latest_news:
+        weight: 29
+        enabled: false
+      section_our_technology:
+        weight: 30
+        enabled: false
+      section_our_vision:
+        weight: 31
+        enabled: false
+      section_services:
+        weight: 32
+        enabled: false
+      section_solutions:
+        weight: 33
+        enabled: false
+      section_testimonials:
+        weight: 34
+        enabled: false
+      solution:
+        weight: 35
+        enabled: false
+      stripe_card_token:
+        weight: 36
+        enabled: false
+      test_paragraph:
+        weight: 38
+        enabled: false
+      testimonial:
+        weight: 37
+        enabled: true
+field_type: entity_reference_revisions

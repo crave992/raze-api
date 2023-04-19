@@ -1,0 +1,20 @@
+uuid: 7598bb41-4f17-4067-8ebf-299277cb7e84
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.coating_service
+id: commerce_product.coating_service.default_variation
+field_name: default_variation
+entity_type: commerce_product
+bundle: coating_service
+label: 'Default variation'
+description: 'The default variation.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

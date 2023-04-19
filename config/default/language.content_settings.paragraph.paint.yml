@@ -1,0 +1,18 @@
+uuid: c5eae5ac-f29f-4c20-8dcc-1cfc0ed61d5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.paint
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.paint
+target_entity_type_id: paragraph
+target_bundle: paint
+default_langcode: site_default
+language_alterable: true

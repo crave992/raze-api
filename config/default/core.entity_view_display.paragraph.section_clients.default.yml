@@ -1,0 +1,33 @@
+uuid: da6dc779-e7f7-4ece-9020-b9fae76e01b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_clients.field_clients
+    - field.field.paragraph.section_clients.field_title
+    - paragraphs.paragraphs_type.section_clients
+  module:
+    - entity_reference_revisions
+id: paragraph.section_clients.default
+targetEntityType: paragraph
+bundle: section_clients
+mode: default
+content:
+  field_clients:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

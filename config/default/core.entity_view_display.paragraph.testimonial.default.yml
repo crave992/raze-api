@@ -1,0 +1,31 @@
+uuid: 039e140b-6fd8-41ad-a28b-7202afb5c69d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.testimonial.field_description
+    - field.field.paragraph.testimonial.field_media_image
+    - paragraphs.paragraphs_type.testimonial
+  module:
+    - text
+id: paragraph.testimonial.default
+targetEntityType: paragraph
+bundle: testimonial
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_media_image:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

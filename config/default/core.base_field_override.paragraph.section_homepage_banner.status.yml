@@ -1,0 +1,22 @@
+uuid: 1f2b9a0b-1c98-430b-8434-86dd84dd2380
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_homepage_banner
+id: paragraph.section_homepage_banner.status
+field_name: status
+entity_type: paragraph
+bundle: section_homepage_banner
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,10 @@
+uuid: 6c6b3eab-7a36-447c-9d9e-9d5e2707560b
+langcode: en
+status: true
+dependencies: {  }
+id: section_gallery
+label: 'Section Gallery'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

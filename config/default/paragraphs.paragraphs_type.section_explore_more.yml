@@ -1,0 +1,10 @@
+uuid: 453e2b72-9475-4625-97b1-b454681ce840
+langcode: en
+status: true
+dependencies: {  }
+id: section_explore_more
+label: 'Section Explore More'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

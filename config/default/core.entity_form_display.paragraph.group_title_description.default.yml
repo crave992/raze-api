@@ -1,0 +1,39 @@
+uuid: f7593694-966a-46a0-b1fc-501012d51caa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.group_title_description.field_description
+    - field.field.paragraph.group_title_description.field_title
+    - paragraphs.paragraphs_type.group_title_description
+  module:
+    - text
+id: paragraph.group_title_description.default
+targetEntityType: paragraph
+bundle: group_title_description
+mode: default
+content:
+  field_description:
+    type: text_textarea
+    weight: 11
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

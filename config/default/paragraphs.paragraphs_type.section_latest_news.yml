@@ -1,0 +1,10 @@
+uuid: 709080b9-9433-40f4-8ddc-bf292d6aab6b
+langcode: en
+status: true
+dependencies: {  }
+id: section_latest_news
+label: 'Section Latest News'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,23 @@
+uuid: fceb61c3-e7d9-4826-a469-8c8f2717e57f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_default
+    - paragraphs.paragraphs_type.stripe_card_token
+id: paragraph.stripe_card_token.field_default
+field_name: field_default
+entity_type: paragraph
+bundle: stripe_card_token
+label: Default
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

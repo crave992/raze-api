@@ -1,0 +1,23 @@
+uuid: ea70b913-c0dc-421a-aebd-6734bcaba3f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.paint
+    - field.storage.commerce_product_variation.field_stock
+  module:
+    - commerce_stock_field
+id: commerce_product_variation.paint.field_stock
+field_name: field_stock
+entity_type: commerce_product_variation
+bundle: paint
+label: Stock
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: null
+default_value_callback: ''
+settings: {  }
+field_type: commerce_stock_level

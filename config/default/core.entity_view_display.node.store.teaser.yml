@@ -1,0 +1,45 @@
+uuid: be4f7fa7-5a19-49be-9ff3-79f3ccfc8414
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.store.body
+    - field.field.node.store.field_link
+    - field.field.node.store.field_location
+    - field.field.node.store.field_opening_hours
+    - field.field.node.store.field_period
+    - field.field.node.store.field_phone
+    - field.field.node.store.field_store_type
+    - field.field.node.store.field_thumbnail
+    - node.type.store
+  module:
+    - text
+    - user
+id: node.store.teaser
+targetEntityType: node
+bundle: store
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_link: true
+  field_location: true
+  field_opening_hours: true
+  field_period: true
+  field_phone: true
+  field_store_type: true
+  field_thumbnail: true
+  langcode: true

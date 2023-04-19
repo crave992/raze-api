@@ -1,0 +1,18 @@
+uuid: e9d39621-d20f-4221-9ac7-2c15efb8ada3
+langcode: en
+status: true
+dependencies:
+  module:
+    - rhm_rest
+    - serialization
+    - user
+id: rhm_alias_list
+plugin_id: rhm_alias_list
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

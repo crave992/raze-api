@@ -1,0 +1,20 @@
+uuid: 68a0d60a-2a17-4524-b6e9-c37b3c4bdff3
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+id: commerce_product.default.uid
+field_name: uid
+entity_type: commerce_product
+bundle: default
+label: Author
+description: 'The product author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\commerce_product\Entity\Product::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

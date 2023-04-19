@@ -1,0 +1,18 @@
+uuid: cc38bea5-a4bd-4248-98db-25379cd76192
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.paint
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: commerce_product.paint
+target_entity_type_id: commerce_product
+target_bundle: paint
+default_langcode: site_default
+language_alterable: false

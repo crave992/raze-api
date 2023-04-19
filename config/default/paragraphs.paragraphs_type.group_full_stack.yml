@@ -1,0 +1,10 @@
+uuid: 2e1b6765-87cb-4df6-bde6-ac6c5e930bee
+langcode: en
+status: true
+dependencies: {  }
+id: group_full_stack
+label: 'Group - Full Stack'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

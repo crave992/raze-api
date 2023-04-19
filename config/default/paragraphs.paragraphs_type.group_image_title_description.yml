@@ -1,0 +1,10 @@
+uuid: c2061608-b8d7-4892-b5dd-778198dd7dda
+langcode: en
+status: true
+dependencies: {  }
+id: group_image_title_description
+label: 'Group - Image Title Description'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

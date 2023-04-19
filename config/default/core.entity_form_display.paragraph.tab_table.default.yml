@@ -1,0 +1,53 @@
+uuid: 8d3cb531-0bdc-4ed0-8245-8634cb650262
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tab_table.field_tab_table
+    - field.field.paragraph.tab_table.field_title
+    - paragraphs.paragraphs_type.tab_table
+  module:
+    - paragraphs_browser
+id: paragraph.tab_table.default
+targetEntityType: paragraph
+bundle: tab_table
+mode: default
+content:
+  field_tab_table:
+    type: paragraphs_browser
+    weight: 11
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: all
+      closed_mode_threshold: '0'
+      add_mode: paragraphs_browser
+      form_display_mode: default
+      default_paragraph_type: tab_table_content
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: 0
+      paragraphs_browser: _na
+      modal_width: 80%
+      modal_height: auto
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

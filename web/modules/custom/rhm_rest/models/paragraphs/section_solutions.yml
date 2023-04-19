@@ -1,0 +1,22 @@
+uuid:
+  value
+field_headline:
+  value
+field_solutions:
+  getReference:
+    field_title:
+      value
+    field_description:
+      value
+    field_link:
+      getLink
+    field_media_image:
+      getMedia|vertical
+    field_products:
+      getReference:
+        path:
+          alias
+        title:
+          value
+        field_media_image:
+          getMedia|large

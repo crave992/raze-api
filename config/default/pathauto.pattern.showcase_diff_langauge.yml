@@ -1,0 +1,34 @@
+uuid: 2d6a82f8-4cb4-4a4a-8ec1-a68303b51fcd
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: showcase_diff_langauge
+label: 'Showcase Diff Langauge'
+type: 'canonical_entities:node'
+pattern: 'showcase/[node:original:title]'
+selection_criteria:
+  073ff6ce-87a6-4f25-a7f0-705019cb96a1:
+    id: node_type
+    negate: false
+    uuid: 073ff6ce-87a6-4f25-a7f0-705019cb96a1
+    context_mapping:
+      node: node
+    bundles:
+      showcase: showcase
+  6d9e6692-1662-42fe-af88-927b55b9a82b:
+    id: language
+    negate: false
+    uuid: 6d9e6692-1662-42fe-af88-927b55b9a82b
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      zh-hans: zh-hans
+      zh-hant: zh-hant
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

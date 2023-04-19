@@ -1,0 +1,22 @@
+uuid: ca6a3028-1033-44b0-98e7-febf69d76261
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+id: commerce_product.default.status
+field_name: status
+entity_type: commerce_product
+bundle: default
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,15 @@
+uuid: 4885c69f-ad6a-44b2-9f3f-05cb0c83f2e2
+langcode: en
+status: true
+dependencies: {  }
+name: vertical
+label: Vertical
+effects:
+  43a3361b-3ec5-4ec2-9954-227200694e20:
+    uuid: 43a3361b-3ec5-4ec2-9954-227200694e20
+    id: image_scale
+    weight: 1
+    data:
+      width: 720
+      height: 930
+      upscale: false

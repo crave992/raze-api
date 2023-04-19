@@ -1,0 +1,19 @@
+uuid: ba2f62c3-5fc9-49d8-9644-fcfe4a27b811
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_headline
+    - paragraphs.paragraphs_type.product_section_highlight
+id: paragraph.product_section_highlight.field_headline
+field_name: field_headline
+entity_type: paragraph
+bundle: product_section_highlight
+label: Headline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: a94d020a-8884-4796-b6fe-f7bf80d6e386
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_headline
+    - paragraphs.paragraphs_type.section_showcase_banner
+id: paragraph.section_showcase_banner.field_headline
+field_name: field_headline
+entity_type: paragraph
+bundle: section_showcase_banner
+label: Headline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

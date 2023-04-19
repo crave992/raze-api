@@ -1,0 +1,19 @@
+uuid: 0071529f-b70e-4733-b449-d5eec884749a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.section_client_speak
+id: paragraph.section_client_speak.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: section_client_speak
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

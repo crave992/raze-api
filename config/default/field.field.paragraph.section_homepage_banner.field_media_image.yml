@@ -1,0 +1,29 @@
+uuid: 604083d1-7656-4f68-a31b-8e61c7824c92
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media_image
+    - media.type.image
+    - paragraphs.paragraphs_type.section_homepage_banner
+id: paragraph.section_homepage_banner.field_media_image
+field_name: field_media_image
+entity_type: paragraph
+bundle: section_homepage_banner
+label: 'Media Image'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

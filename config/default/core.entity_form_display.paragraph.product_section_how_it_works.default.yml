@@ -1,0 +1,50 @@
+uuid: ebe354bc-3d7b-4175-be86-3e8d22c8ec06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.product_section_how_it_works.field_items
+    - field.field.paragraph.product_section_how_it_works.field_title
+    - paragraphs.paragraphs_type.product_section_how_it_works
+  module:
+    - paragraphs
+id: paragraph.product_section_how_it_works.default
+targetEntityType: paragraph
+bundle: product_section_how_it_works
+mode: default
+content:
+  field_items:
+    type: paragraphs
+    weight: 11
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: all
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: group_image_title_description
+      features:
+        add_above: '0'
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

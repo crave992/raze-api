@@ -1,0 +1,46 @@
+uuid: e52ad50b-db82-4843-a277-4d5c6a6cca67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_product_special.field_background
+    - field.field.paragraph.section_product_special.field_products
+    - field.field.paragraph.section_product_special.field_title
+    - paragraphs.paragraphs_type.section_product_special
+id: paragraph.section_product_special.default
+targetEntityType: paragraph
+bundle: section_product_special
+mode: default
+content:
+  field_background:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_products:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

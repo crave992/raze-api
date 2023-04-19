@@ -1,0 +1,35 @@
+uuid: 84ff133c-1548-4b7c-b392-e82b6080259c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_anchor_with_content.field_anchor_content
+    - paragraphs.paragraphs_type.section_anchor_with_content
+  module:
+    - paragraphs
+id: paragraph.section_anchor_with_content.default
+targetEntityType: paragraph
+bundle: section_anchor_with_content
+mode: default
+content:
+  field_anchor_content:
+    type: paragraphs
+    weight: 0
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

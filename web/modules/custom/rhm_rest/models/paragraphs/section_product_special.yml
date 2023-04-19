@@ -1,0 +1,22 @@
+uuid:
+  value
+field_background:
+  value
+field_title:
+  value
+field_products:
+  getReference:
+    path:
+      alias
+    title:
+      value
+    body:
+      value
+    field_product_type:
+      getReference:
+        name:
+          value
+    field_media_image:
+      getMedia|large
+    field_product:
+      getProduct

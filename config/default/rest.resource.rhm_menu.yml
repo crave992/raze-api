@@ -1,0 +1,18 @@
+uuid: b237e984-745f-485d-9e4a-1b467ae7530a
+langcode: en
+status: true
+dependencies:
+  module:
+    - rhm_rest
+    - serialization
+    - user
+id: rhm_menu
+plugin_id: rhm_menu
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

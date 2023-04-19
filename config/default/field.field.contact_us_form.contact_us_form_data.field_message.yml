@@ -1,0 +1,21 @@
+uuid: 4bbec912-0b1a-46f6-af15-50f24d5272bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.contact_us_form.contact_us_form_data
+    - field.storage.contact_us_form.field_message
+  module:
+    - text
+id: contact_us_form.contact_us_form_data.field_message
+field_name: field_message
+entity_type: contact_us_form
+bundle: contact_us_form_data
+label: Message
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

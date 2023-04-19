@@ -1,0 +1,18 @@
+uuid: be7e8efd-0ecd-47d7-a266-7bb8f001b0de
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_testimonials
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.section_testimonials
+target_entity_type_id: paragraph
+target_bundle: section_testimonials
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,9 @@
+uuid: c4bbf43e-ef20-4310-8520-ac20c9d76b7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.appointment
+name: Appointment
+type: appointment
+description: ''

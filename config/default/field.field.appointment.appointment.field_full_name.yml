@@ -1,0 +1,19 @@
+uuid: 8c737974-7624-486e-8cf2-4ff409b464c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.appointment.appointment
+    - field.storage.appointment.field_full_name
+id: appointment.appointment.field_full_name
+field_name: field_full_name
+entity_type: appointment
+bundle: appointment
+label: 'Full Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

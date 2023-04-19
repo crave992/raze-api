@@ -1,0 +1,10 @@
+uuid:
+  value
+field_title:
+  value
+field_quick_action:
+  getReference:
+    field_media_image:
+      getMedia|large
+    field_link:
+      getLink

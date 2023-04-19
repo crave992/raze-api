@@ -1,0 +1,37 @@
+uuid: 20690b4d-c6f0-4e35-ae52-176c4cc0ca39
+langcode: en
+status: true
+dependencies:
+  config:
+    - rest.resource.lost_password_reset
+    - rest.resource.resend_token_email_resource
+    - rest.resource.rest_menu_item
+    - rest.resource.rhm_alias
+    - rest.resource.rhm_alias_list
+    - rest.resource.rhm_site_settings
+    - rest.resource.rhm_store_save_address
+    - rest.resource.user_registration
+  module:
+    - rest
+id: end_user
+label: 'End User'
+weight: 3
+is_admin: null
+permissions:
+  - 'add simple_oauth entities'
+  - 'administer rest resources'
+  - 'administer simple_oauth entities'
+  - 'debug simple_oauth tokens'
+  - 'delete own simple_oauth entities'
+  - 'grant simple_oauth codes'
+  - 'restful get rest_menu_item'
+  - 'restful get rhm_alias'
+  - 'restful get rhm_alias_list'
+  - 'restful get rhm_site_settings'
+  - 'restful post lost_password_reset'
+  - 'restful post portaluserlogin'
+  - 'restful post resend_token_email_resource'
+  - 'restful post rhm_store_save_address'
+  - 'restful post user_registration'
+  - 'update own simple_oauth entities'
+  - 'view own simple_oauth entities'

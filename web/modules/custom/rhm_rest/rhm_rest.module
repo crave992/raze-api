@@ -1,0 +1,141 @@
+<?php
+
+use Drupal\rhm_rest\RhmRest;
+use Drupal\rhm_store\Plugin\custom\RhmStoreController;
+use Drupal\node\Entity\Node;
+
+/**
+ * Implementation of hook_rest_paragraph_alter
+ * @param $paragraph
+ */
+function rhm_rest_rest_paragraph_alter(&$paragraph) {
+
+  $rhmRest            = new RhmRest();
+  $rhmStoreController = new RhmStoreController();
+  $rhmUtil            = \Drupal::service('rhm_rest_util');
+  $lang               = \Drupal::request()->query->get('lang');
+
+  if ($lang === 'en-US' || $lang === 'undefined') {
+    $lang = 'en';
+  }
+  $lang = strtolower($lang);
+
+
+  if ($paragraph['bundle'] == 'section_product_by_type') {
+    $pEntity = \Drupal::service('entity.repository')
+      ->loadEntityByUuid('paragraph', $paragraph['paragraph']['uuid']);
+    $rhmUtil->translate($pEntity, $lang);
+
+    $productType = $pEntity->field_product_type->entity;
+    $rhmUtil->translate($productType, $lang);
+
+    $query = \Drupal::entityQuery('node');
+    $query->condition('status', 1);
+    $query->condition('type', 'product_display');
+    $query->condition('field_product_type.entity.tid', $productType->tid->value);
+    $entity_ids = $query->execute();
+
+    $data = [];
+    foreach ($entity_ids as $entity_id) {
+      $productDisplay = Node::load($entity_id);
+      $rhmUtil->translate($productDisplay, $lang);
+      $data[] = $rhmStoreController->productDisplayData($productDisplay);
+    }
+
+    $paragraph['paragraph']['products']    = $data;
+    $paragraph['paragraph']['displayType'] = $productType->name->value;
+  }
+
+  elseif ($paragraph['bundle'] == 'product_section_related') {
+
+    $pEntity = \Drupal::service('entity.repository')
+      ->loadEntityByUuid('paragraph', $paragraph['paragraph']['uuid']);
+    $rhmUtil->translate($pEntity, $lang);
+    $parent = $pEntity->getParentEntity();
+
+    $productType = $parent->field_product_type->entity;
+    $rhmUtil->translate($productType, $lang);
+
+    $query = \Drupal::entityQuery('node');
+    $query->condition('status', 1);
+    $query->condition('type', 'product_display');
+    $query->condition('field_product_type.entity.tid', $productType->tid->value);
+    $query->condition('nid', $parent->id(), '<>');
+    $query->range(0, 3);
+    $entity_ids = $query->execute();
+
+    $data = [];
+    foreach ($entity_ids as $entity_id) {
+      $productDisplay = Node::load($entity_id);
+      $rhmUtil->translate($productDisplay, $lang);
+      $data[] = $rhmStoreController->productDisplayData($productDisplay);
+    }
+
+    $paragraph['paragraph']['products'] = $data;
+  }
+
+  elseif ($paragraph['bundle'] == 'section_latest_news') {
+
+    $query = \Drupal::entityQuery('node');
+    $query->condition('status', 1);
+    $query->condition('type', 'article');
+    $query->range(0, 4);
+    $entity_ids = $query->execute();
+
+    $data = [];
+    foreach ($entity_ids as $entity_id) {
+      $article = Node::load($entity_id);
+      $rhmUtil->translate($article);
+
+      $category = [];
+      if ($article->field_category->getValue()) {
+        $category = $rhmUtil->loadTerm($article->field_category->getValue()[0]['target_id']);
+      }
+
+      $created = $article->getCreatedTime();
+      $created = \Drupal::service('date.formatter')
+        ->format($created, 'article');
+
+      $data[] = [
+        'title' => $article->getTitle(),
+        'body' => $article->body->getValue(),
+        'image' => $rhmRest->loadMedia($article->field_media_image, 'horizontal'),
+        'category' => $category,
+        'created' => $created,
+        'path' => $article->toUrl()->toString()
+      ];
+    }
+
+    $paragraph['paragraph']['news'] = $data;
+  }
+
+  elseif ($paragraph['bundle'] == 'section_other_showcase') {
+
+    $pEntity = \Drupal::service('entity.repository')
+      ->loadEntityByUuid('paragraph', $paragraph['paragraph']['uuid']);
+    $rhmUtil->translate($pEntity, $lang);
+    $parent = $pEntity->getParentEntity();
+
+    $query = \Drupal::entityQuery('node');
+    $query->condition('status', 1);
+    $query->condition('type', 'showcase');
+    $query->condition('nid', $parent->id(), '<>');
+    $query->range(0, 3);
+    $entity_ids = $query->execute();
+
+    $data = [];
+    foreach ($entity_ids as $entity_id) {
+      $showcase = Node::load($entity_id);
+      $rhmUtil->translate($showcase, $lang);
+      $data[] = [
+        'nid' => $showcase->id(),
+        'title' => $showcase->getTitle(),
+        'type' => $rhmUtil->loadTerm($showcase->field_showcase_type->entity->tid->value),
+        'image' => $rhmRest->loadMedia($showcase->field_thumbnail, 'large'),
+        'path' => $showcase->toUrl()->toString()
+      ];
+    }
+
+    $paragraph['paragraph']['showcase'] = $data;
+  }
+}

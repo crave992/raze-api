@@ -1,0 +1,76 @@
+uuid: c087a848-27a4-446e-b2d9-319b3d730e7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_features
+    - paragraphs.paragraphs_type.feature
+    - paragraphs.paragraphs_type.product_section_feature
+  module:
+    - entity_reference_revisions
+id: paragraph.product_section_feature.field_features
+field_name: field_features
+entity_type: paragraph
+bundle: product_section_feature
+label: Features
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      feature: feature
+    negate: 0
+    target_bundles_drag_drop:
+      feature:
+        weight: 17
+        enabled: true
+      group_image_title_description:
+        weight: 18
+        enabled: false
+      menu_block:
+        weight: 19
+        enabled: false
+      menu_blocks:
+        weight: 20
+        enabled: false
+      product_section_feature:
+        weight: 22
+        enabled: false
+      products:
+        weight: 21
+        enabled: false
+      section_featured_articles:
+        weight: 23
+        enabled: false
+      section_homepage_banner:
+        weight: 24
+        enabled: false
+      section_latest_news:
+        weight: 25
+        enabled: false
+      section_our_technology:
+        weight: 26
+        enabled: false
+      section_our_vision:
+        weight: 27
+        enabled: false
+      section_services:
+        weight: 28
+        enabled: false
+      section_solutions:
+        weight: 29
+        enabled: false
+      solution:
+        weight: 30
+        enabled: false
+      stripe_card_token:
+        weight: 31
+        enabled: false
+      test_paragraph:
+        weight: 32
+        enabled: false
+field_type: entity_reference_revisions

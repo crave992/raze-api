@@ -1,0 +1,40 @@
+uuid: 28405a11-7ccf-4bf9-9982-b543654bdc1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_stripe_card_token
+    - paragraphs.paragraphs_type.stripe_card_token
+  module:
+    - entity_reference_revisions
+    - user
+id: user.user.field_stripe_card_token
+field_name: field_stripe_card_token
+entity_type: user
+bundle: user
+label: 'Stripe Card Token'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      stripe_card_token: stripe_card_token
+    negate: 0
+    target_bundles_drag_drop:
+      products:
+        weight: 5
+        enabled: false
+      section_featured_articles:
+        weight: 6
+        enabled: false
+      stripe_card_token:
+        weight: 7
+        enabled: true
+      test_paragraph:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

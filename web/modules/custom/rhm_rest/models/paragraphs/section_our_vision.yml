@@ -1,0 +1,10 @@
+uuid:
+  value
+field_headline:
+  value
+field_title:
+  value
+field_media_images:
+  getMedia|horizontal
+field_link:
+  getLink

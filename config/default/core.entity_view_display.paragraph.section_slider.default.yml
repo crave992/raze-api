@@ -1,0 +1,33 @@
+uuid: 24d0aacb-20e7-483f-8171-a9b8c3a2ff3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_slider.field_slides
+    - field.field.paragraph.section_slider.field_title
+    - paragraphs.paragraphs_type.section_slider
+  module:
+    - entity_reference_revisions
+id: paragraph.section_slider.default
+targetEntityType: paragraph
+bundle: section_slider
+mode: default
+content:
+  field_slides:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

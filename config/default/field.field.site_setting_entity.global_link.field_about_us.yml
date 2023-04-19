@@ -1,0 +1,23 @@
+uuid: 8f342f95-6bec-45bd-a6ad-65555e399ddf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.site_setting_entity.field_about_us
+    - site_settings.site_setting_entity_type.global_link
+  module:
+    - link
+id: site_setting_entity.global_link.field_about_us
+field_name: field_about_us
+entity_type: site_setting_entity
+bundle: global_link
+label: 'About Us'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

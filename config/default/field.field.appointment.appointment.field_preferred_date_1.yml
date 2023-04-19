@@ -1,0 +1,21 @@
+uuid: 4b458479-7871-401d-b6d7-4db57fec2d5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.appointment.appointment
+    - field.storage.appointment.field_preferred_date_1
+  module:
+    - datetime
+id: appointment.appointment.field_preferred_date_1
+field_name: field_preferred_date_1
+entity_type: appointment
+bundle: appointment
+label: 'Preferred Date 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

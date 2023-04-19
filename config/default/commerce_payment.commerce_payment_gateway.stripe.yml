@@ -1,0 +1,20 @@
+uuid: 0cde7193-0933-4f89-862d-f8103a522d01
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_decoupled_stripe
+id: stripe
+label: Stripe
+weight: null
+plugin: decoupled_stripe
+configuration:
+  display_label: 'Decoupled Stripe'
+  mode: test
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+  publishable_key: pk_test_51KdnkqLzgqQDdxZTTUozkPKHGQkH95VIvU0LDvpUTKE9YzZizWdQfUNw3LNIv8PlKdHLsECgZCVP7O5KaocLCJzx008BU8mLa6
+  secret_key: sk_test_51KdnkqLzgqQDdxZTnAkGzLqwzYSE9VjuZw7UDtpEXdeP4jZi76GSepk4BvSFrKdRgmekNd8CtZongqHlt9nXmudt00zbNv3MWV
+conditions: {  }
+conditionOperator: AND

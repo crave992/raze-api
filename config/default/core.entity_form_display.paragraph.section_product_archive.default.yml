@@ -1,0 +1,60 @@
+uuid: a89a08d1-288f-4f7a-a32f-8b1acd0fc5b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_product_archive.field_background
+    - field.field.paragraph.section_product_archive.field_headline
+    - field.field.paragraph.section_product_archive.field_product_list
+    - paragraphs.paragraphs_type.section_product_archive
+  module:
+    - paragraphs_browser
+id: paragraph.section_product_archive.default
+targetEntityType: paragraph
+bundle: section_product_archive
+mode: default
+content:
+  field_background:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_headline:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_product_list:
+    type: paragraphs_browser
+    weight: 3
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: all
+      closed_mode_threshold: '0'
+      add_mode: paragraphs_browser
+      form_display_mode: default
+      default_paragraph_type: product_archive
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: 0
+      paragraphs_browser: _na
+      modal_width: 80%
+      modal_height: auto
+    third_party_settings: {  }
+  translation:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,23 @@
+uuid: 9b8bfa82-04e3-4c10-970a-2f6588e1268e
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.auto_coating
+    - field.storage.commerce_product.body
+  module:
+    - text
+id: commerce_product.auto_coating.body
+field_name: body
+entity_type: commerce_product
+bundle: auto_coating
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

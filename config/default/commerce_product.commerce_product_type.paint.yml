@@ -1,0 +1,12 @@
+uuid: 7435462b-1dbc-4e88-9878-d3508cfab5f4
+langcode: en
+status: true
+dependencies: {  }
+id: paint
+label: Paint
+traits: {  }
+locked: false
+description: ''
+variationType: paint
+multipleVariations: true
+injectVariationFields: true

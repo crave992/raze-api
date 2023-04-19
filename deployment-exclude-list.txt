@@ -1,0 +1,10 @@
+/.*
+bitbucket-pipelines.yml
+deployment-exclude-list.txt
+settings.local.php
+web/sites/default/files
+web/sites/default/files/*
+*/node_modules
+.bitbucket
+.git
+php.ini

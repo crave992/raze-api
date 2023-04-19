@@ -1,0 +1,10 @@
+uuid: 5411db88-c12f-4ec9-beb3-bff3e701154c
+langcode: en
+status: true
+dependencies: {  }
+id: speak
+label: Speak
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

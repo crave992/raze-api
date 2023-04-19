@@ -1,0 +1,10 @@
+uuid: c92a07c6-8d84-42e0-ac5d-59b4d5e11fa2
+langcode: en
+status: true
+dependencies: {  }
+id: stripe_card_token
+label: 'Stripe Card Token'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

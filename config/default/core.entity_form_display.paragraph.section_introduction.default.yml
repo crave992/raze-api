@@ -1,0 +1,89 @@
+uuid: 0b43308c-319b-481b-bf00-10a391880cca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_introduction.field_column
+    - field.field.paragraph.section_introduction.field_description
+    - field.field.paragraph.section_introduction.field_headline
+    - field.field.paragraph.section_introduction.field_items
+    - field.field.paragraph.section_introduction.field_link
+    - field.field.paragraph.section_introduction.field_media_images
+    - paragraphs.paragraphs_type.section_introduction
+  module:
+    - link
+    - media_library
+    - paragraphs_browser
+    - text
+id: paragraph.section_introduction.default
+targetEntityType: paragraph
+bundle: section_introduction
+mode: default
+content:
+  field_column:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_description:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_headline:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_items:
+    type: paragraphs_browser
+    weight: 4
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: all
+      closed_mode_threshold: '0'
+      add_mode: paragraphs_browser
+      form_display_mode: default
+      default_paragraph_type: group_image_title_description
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: 0
+      paragraphs_browser: _na
+      modal_width: 80%
+      modal_height: auto
+    third_party_settings: {  }
+  field_link:
+    type: link_default
+    weight: 6
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_media_images:
+    type: media_library_widget
+    weight: 5
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  translation:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

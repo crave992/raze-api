@@ -1,0 +1,10 @@
+uuid: 5d4452a4-bbaf-4ecf-a04e-7da10e2f1459
+langcode: en
+status: true
+dependencies: {  }
+id: section_showcase_banner
+label: 'Section Showcase Banner'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

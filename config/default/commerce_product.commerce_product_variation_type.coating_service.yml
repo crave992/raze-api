@@ -1,0 +1,10 @@
+uuid: dc9d7d31-6b08-4966-affb-74a68f46ea21
+langcode: en
+status: true
+dependencies: {  }
+id: coating_service
+label: 'Coating Service'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: true

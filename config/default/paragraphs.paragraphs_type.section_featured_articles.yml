@@ -1,0 +1,15 @@
+uuid: c2aa1852-05d8-4ae7-8ffe-fde85f57bc90
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://Featured Articles | Next 2021-08-24 17-17-21.jpg'
+id: section_featured_articles
+label: 'Section Featured Articles'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

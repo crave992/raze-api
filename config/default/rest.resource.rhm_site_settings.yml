@@ -1,0 +1,18 @@
+uuid: 75650717-b4d5-451b-bf1f-4e801015bff5
+langcode: en
+status: true
+dependencies:
+  module:
+    - rhm_rest
+    - serialization
+    - user
+id: rhm_site_settings
+plugin_id: rhm_site_settings
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

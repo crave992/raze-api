@@ -1,0 +1,35 @@
+uuid: fa8016aa-4814-4951-9642-62e4a14d0ea8
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: content_default
+label: 'Content Default'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  df86a51e-0a27-45b6-83ef-de40e2dc977a:
+    id: node_type
+    negate: false
+    uuid: df86a51e-0a27-45b6-83ef-de40e2dc977a
+    context_mapping:
+      node: node
+    bundles:
+      custom_page: custom_page
+      page: page
+  e1b33d81-d87d-467c-9333-b6099495ec94:
+    id: language
+    negate: false
+    uuid: e1b33d81-d87d-467c-9333-b6099495ec94
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      en: en
+      zh-hant: zh-hant
+selection_logic: and
+weight: 0
+relationships:
+  'node:langcode:language':
+    label: Language

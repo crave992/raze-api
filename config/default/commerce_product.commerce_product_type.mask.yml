@@ -1,0 +1,12 @@
+uuid: d6596ce7-2122-41b3-b7ea-814247fc8132
+langcode: en
+status: true
+dependencies: {  }
+id: mask
+label: Mask
+traits: {  }
+locked: false
+description: ''
+variationType: mask
+multipleVariations: true
+injectVariationFields: true

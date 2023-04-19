@@ -1,0 +1,18 @@
+uuid: 5e4c50af-58de-4bdf-952f-14d45c654a2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.mask
+id: commerce_product.mask.metatag
+field_name: metatag
+entity_type: commerce_product
+bundle: mask
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

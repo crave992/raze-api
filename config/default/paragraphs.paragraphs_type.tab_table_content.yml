@@ -1,0 +1,10 @@
+uuid: e0e7523f-68cf-4a84-a47a-81e0b1a011f5
+langcode: en
+status: true
+dependencies: {  }
+id: tab_table_content
+label: 'Tab - Table Content'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

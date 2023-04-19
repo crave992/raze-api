@@ -1,0 +1,10 @@
+uuid: 8d278a2f-6ccb-4e7c-b58e-413dcfaa5c65
+langcode: en
+status: true
+dependencies: {  }
+id: tab_image_text
+label: 'Tab - Image Text'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

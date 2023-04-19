@@ -1,0 +1,19 @@
+uuid: fe241949-72fb-4aeb-bf74-bacc1c39486d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.group_full_stack
+id: paragraph.group_full_stack.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: group_full_stack
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

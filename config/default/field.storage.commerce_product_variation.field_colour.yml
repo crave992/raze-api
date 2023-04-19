@@ -1,0 +1,20 @@
+uuid: 37e56bad-dd93-4e20-a832-8b1534d4a0a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - color_field
+    - commerce_product
+id: commerce_product_variation.field_colour
+field_name: field_colour
+entity_type: commerce_product_variation
+type: color_field_type
+settings:
+  format: '#HEXHEX'
+module: color_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

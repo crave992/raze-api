@@ -1,0 +1,10 @@
+uuid: cf486977-7844-46a0-b979-87e1bce22d28
+langcode: en
+status: true
+dependencies: {  }
+id: section_feature_list
+label: 'Section Feature List'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

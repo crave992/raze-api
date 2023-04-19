@@ -1,0 +1,33 @@
+uuid: 1c598245-2334-474c-af18-ea562b96e2ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_client_speak.field_speaks
+    - field.field.paragraph.section_client_speak.field_title
+    - paragraphs.paragraphs_type.section_client_speak
+  module:
+    - entity_reference_revisions
+id: paragraph.section_client_speak.default
+targetEntityType: paragraph
+bundle: section_client_speak
+mode: default
+content:
+  field_speaks:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

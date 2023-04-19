@@ -1,0 +1,18 @@
+uuid: 39788986-659a-4547-b9b3-e0fc703d2afc
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Showcase
+type: showcase
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

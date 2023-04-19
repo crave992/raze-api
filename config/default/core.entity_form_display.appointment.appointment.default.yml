@@ -1,0 +1,126 @@
+uuid: be151520-171b-4fcb-82cf-970e250e7e51
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.appointment.appointment
+    - field.field.appointment.appointment.field_address
+    - field.field.appointment.appointment.field_apartment
+    - field.field.appointment.appointment.field_company
+    - field.field.appointment.appointment.field_district
+    - field.field.appointment.appointment.field_email
+    - field.field.appointment.appointment.field_full_name
+    - field.field.appointment.appointment.field_order
+    - field.field.appointment.appointment.field_phone
+    - field.field.appointment.appointment.field_preferred_date_1
+    - field.field.appointment.appointment.field_preferred_date_2
+    - field.field.appointment.appointment.field_type
+  module:
+    - datetime
+id: appointment.appointment.default
+targetEntityType: appointment
+bundle: appointment
+mode: default
+content:
+  field_address:
+    type: string_textfield
+    weight: 9
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_apartment:
+    type: string_textfield
+    weight: 10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_company:
+    type: string_textfield
+    weight: 8
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_district:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_email:
+    type: email_default
+    weight: 6
+    region: content
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: {  }
+  field_full_name:
+    type: string_textfield
+    weight: 5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_order:
+    type: entity_reference_autocomplete
+    weight: 12
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_phone:
+    type: string_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_preferred_date_1:
+    type: datetime_default
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_preferred_date_2:
+    type: datetime_default
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_type:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

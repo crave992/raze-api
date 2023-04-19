@@ -1,0 +1,18 @@
+uuid: 191b5f53-4fa9-41c4-b7fb-84bc9bc4cbab
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.paint
+id: commerce_product.paint.title
+field_name: title
+entity_type: commerce_product
+bundle: paint
+label: Title
+description: 'The product title.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

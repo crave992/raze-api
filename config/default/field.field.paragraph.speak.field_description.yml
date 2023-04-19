@@ -1,0 +1,21 @@
+uuid: 8906ed52-f401-4fec-b0c3-f814e86a6424
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.speak
+  module:
+    - text
+id: paragraph.speak.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: speak
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,20 @@
+uuid: 6381c3d9-2d05-4603-a349-d222cee789b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: contact_us_form.field_phone
+field_name: field_phone
+entity_type: contact_us_form
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

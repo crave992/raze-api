@@ -1,0 +1,64 @@
+uuid: 1aab6c03-3d56-41ee-877a-d7fa231cc2b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_services
+    - paragraphs.paragraphs_type.group_image_title_description
+    - paragraphs.paragraphs_type.section_services
+  module:
+    - entity_reference_revisions
+id: paragraph.section_services.field_services
+field_name: field_services
+entity_type: paragraph
+bundle: section_services
+label: Services
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      group_image_title_description: group_image_title_description
+    negate: 0
+    target_bundles_drag_drop:
+      group_image_title_description:
+        weight: 13
+        enabled: true
+      menu_block:
+        weight: 14
+        enabled: false
+      menu_blocks:
+        weight: 15
+        enabled: false
+      products:
+        weight: 16
+        enabled: false
+      section_featured_articles:
+        weight: 17
+        enabled: false
+      section_homepage_banner:
+        weight: 18
+        enabled: false
+      section_our_vision:
+        weight: 19
+        enabled: false
+      section_services:
+        weight: 20
+        enabled: false
+      section_solutions:
+        weight: 21
+        enabled: false
+      solution:
+        weight: 22
+        enabled: false
+      stripe_card_token:
+        weight: 23
+        enabled: false
+      test_paragraph:
+        weight: 24
+        enabled: false
+field_type: entity_reference_revisions

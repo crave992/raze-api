@@ -1,0 +1,21 @@
+uuid: 7660aa96-3cbc-41ab-88cf-e75eae37f303
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_row_content
+    - paragraphs.paragraphs_type.table_row
+  module:
+    - text
+id: paragraph.table_row.field_row_content
+field_name: field_row_content
+entity_type: paragraph
+bundle: table_row
+label: 'Row Content'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

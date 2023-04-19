@@ -1,0 +1,8 @@
+uuid: 93931209-13a7-4469-a554-3b2703bfda26
+langcode: en
+status: true
+dependencies: {  }
+name: 'Store Type'
+vid: store_type
+description: ''
+weight: 0

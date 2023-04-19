@@ -1,0 +1,23 @@
+uuid: 15922048-5839-475f-967a-09ff6b749bed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.site_setting_entity.field_store_link
+    - site_settings.site_setting_entity_type.global_link
+  module:
+    - link
+id: site_setting_entity.global_link.field_store_link
+field_name: field_store_link
+entity_type: site_setting_entity
+bundle: global_link
+label: 'Store Link'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

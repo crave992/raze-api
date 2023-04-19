@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: g4qz7cPnloXFwtnLYfIKI2VS0gf_UFOz_I2uQiiulC8
+apikey: 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
+test_defaults:
+  to: chris@rushhourdigital.com
+  subject: 'Test Email from SendGrid Module'
+  body:
+    value: 'Test Message for SendGrid.'
+    format: plain_text
+  from_name: developers@rushhourdigital.com
+  to_name: test
+  reply_to: ''

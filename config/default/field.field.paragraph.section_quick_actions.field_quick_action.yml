@@ -1,0 +1,223 @@
+uuid: bc9dbebf-1d27-45d8-8756-9eb339b879eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_quick_action
+    - paragraphs.paragraphs_type.group_image_link
+    - paragraphs.paragraphs_type.section_quick_actions
+  module:
+    - entity_reference_revisions
+id: paragraph.section_quick_actions.field_quick_action
+field_name: field_quick_action
+entity_type: paragraph
+bundle: section_quick_actions
+label: 'Quick Actions'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      group_image_link: group_image_link
+    negate: 0
+    target_bundles_drag_drop:
+      feature:
+        weight: 66
+        enabled: false
+      from_library:
+        weight: 67
+        enabled: false
+      group_full_stack:
+        weight: 68
+        enabled: false
+      group_image_link:
+        weight: 69
+        enabled: true
+      group_image_title:
+        weight: 70
+        enabled: false
+      group_image_title_description:
+        weight: 71
+        enabled: false
+      group_title_description:
+        weight: 72
+        enabled: false
+      menu_block:
+        weight: 73
+        enabled: false
+      menu_blocks:
+        weight: 74
+        enabled: false
+      paint:
+        weight: 75
+        enabled: false
+      product_archive:
+        weight: 76
+        enabled: false
+      product_section_feature:
+        weight: 77
+        enabled: false
+      product_section_highlight:
+        weight: 78
+        enabled: false
+      product_section_how_it_works:
+        weight: 79
+        enabled: false
+      product_section_related:
+        weight: 80
+        enabled: false
+      section_all_news:
+        weight: 81
+        enabled: false
+      section_all_showcase:
+        weight: 82
+        enabled: false
+      section_anchor_with_content:
+        weight: 83
+        enabled: false
+      section_article_content:
+        weight: 84
+        enabled: false
+      section_banner:
+        weight: 85
+        enabled: false
+      section_certificate:
+        weight: 86
+        enabled: false
+      section_client_speak:
+        weight: 88
+        enabled: false
+      section_clients:
+        weight: 87
+        enabled: false
+      section_contact_us:
+        weight: 89
+        enabled: false
+      section_content_box:
+        weight: 90
+        enabled: false
+      section_cta:
+        weight: 91
+        enabled: false
+      section_cta_2:
+        weight: 92
+        enabled: false
+      section_explore_more:
+        weight: 93
+        enabled: false
+      section_faq:
+        weight: 94
+        enabled: false
+      section_feature_list:
+        weight: 96
+        enabled: false
+      section_featured_articles:
+        weight: 95
+        enabled: false
+      section_gallery:
+        weight: 97
+        enabled: false
+      section_general_content:
+        weight: 98
+        enabled: false
+      section_homepage_banner:
+        weight: 99
+        enabled: false
+      section_introduction:
+        weight: 100
+        enabled: false
+      section_latest_news:
+        weight: 101
+        enabled: false
+      section_other_showcase:
+        weight: 102
+        enabled: false
+      section_our_technology:
+        weight: 103
+        enabled: false
+      section_our_vision:
+        weight: 104
+        enabled: false
+      section_paint_description:
+        weight: 105
+        enabled: false
+      section_product_archive:
+        weight: 106
+        enabled: false
+      section_product_by_type:
+        weight: 107
+        enabled: false
+      section_product_special:
+        weight: 108
+        enabled: false
+      section_quick_actions:
+        weight: 109
+        enabled: false
+      section_responsibility:
+        weight: 110
+        enabled: false
+      section_services:
+        weight: 111
+        enabled: false
+      section_showcase_banner:
+        weight: 112
+        enabled: false
+      section_slider:
+        weight: 113
+        enabled: false
+      section_solutions:
+        weight: 114
+        enabled: false
+      section_store_banner:
+        weight: 115
+        enabled: false
+      section_store_locator:
+        weight: 116
+        enabled: false
+      section_table_with_introduction:
+        weight: 117
+        enabled: false
+      section_tabs:
+        weight: 118
+        enabled: false
+      section_testimonials:
+        weight: 119
+        enabled: false
+      section_title_content_image:
+        weight: 120
+        enabled: false
+      section_we_provide:
+        weight: 121
+        enabled: false
+      solution:
+        weight: 122
+        enabled: false
+      speak:
+        weight: 123
+        enabled: false
+      stripe_card_token:
+        weight: 124
+        enabled: false
+      tab:
+        weight: 125
+        enabled: false
+      tab_image_text:
+        weight: 127
+        enabled: false
+      tab_table:
+        weight: 128
+        enabled: false
+      tab_table_content:
+        weight: 129
+        enabled: false
+      table_row:
+        weight: 126
+        enabled: false
+      testimonial:
+        weight: 130
+        enabled: false
+field_type: entity_reference_revisions

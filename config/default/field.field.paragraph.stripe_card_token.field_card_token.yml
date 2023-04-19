@@ -1,0 +1,19 @@
+uuid: 9fe3a8fa-61b1-4329-b7dc-6bd90598f5c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_token
+    - paragraphs.paragraphs_type.stripe_card_token
+id: paragraph.stripe_card_token.field_card_token
+field_name: field_card_token
+entity_type: paragraph
+bundle: stripe_card_token
+label: 'Card Token'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

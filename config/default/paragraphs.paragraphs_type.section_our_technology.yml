@@ -1,0 +1,10 @@
+uuid: 97fc9abb-4ca1-4616-8dbe-07039983cd2d
+langcode: en
+status: true
+dependencies: {  }
+id: section_our_technology
+label: 'Section Our Technology'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,19 @@
+uuid: f77f5714-9a11-4783-a9dd-cddf6b5aa00c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.paint
+id: paragraph.paint.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: paint
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,10 @@
+uuid: 671590cf-6e69-4790-af27-10857943f9de
+langcode: en
+status: true
+dependencies: {  }
+id: product_section_highlight
+label: 'Product Highlight'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

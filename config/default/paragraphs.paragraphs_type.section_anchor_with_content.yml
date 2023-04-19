@@ -1,0 +1,10 @@
+uuid: ee1ab3d0-ab52-4400-a9cf-1d74d5b891b1
+langcode: en
+status: true
+dependencies: {  }
+id: section_anchor_with_content
+label: 'Section Anchor with Content'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

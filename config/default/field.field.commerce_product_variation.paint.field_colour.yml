@@ -1,0 +1,22 @@
+uuid: af5d5398-3630-4218-895d-de81145e6dec
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.paint
+    - field.storage.commerce_product_variation.field_colour
+  module:
+    - color_field
+id: commerce_product_variation.paint.field_colour
+field_name: field_colour
+entity_type: commerce_product_variation
+bundle: paint
+label: Colour
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  opacity: 0
+field_type: color_field_type

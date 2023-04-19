@@ -1,0 +1,23 @@
+uuid: 632cf3aa-f7b0-4475-a9be-006725c8f640
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.site_setting_entity.field_body
+    - site_settings.site_setting_entity_type.footer_content
+  module:
+    - text
+id: site_setting_entity.footer_content.field_body
+field_name: field_body
+entity_type: site_setting_entity
+bundle: footer_content
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

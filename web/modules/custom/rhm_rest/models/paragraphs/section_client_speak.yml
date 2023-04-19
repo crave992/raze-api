@@ -1,0 +1,16 @@
+uuid:
+  value
+field_title:
+  value
+field_speaks:
+  getReference:
+    field_name:
+      value
+    field_description:
+      value
+    field_showcase:
+      getReference:
+        path:
+          alias
+    field_video:
+      getVideo

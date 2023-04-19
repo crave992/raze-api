@@ -1,0 +1,57 @@
+uuid: 3318632c-5627-44b7-8966-edbd58403102
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_our_vision.field_headline
+    - field.field.paragraph.section_our_vision.field_link
+    - field.field.paragraph.section_our_vision.field_media_images
+    - field.field.paragraph.section_our_vision.field_title
+    - paragraphs.paragraphs_type.section_our_vision
+  module:
+    - link
+    - media_library
+id: paragraph.section_our_vision.default
+targetEntityType: paragraph
+bundle: section_our_vision
+mode: default
+content:
+  field_headline:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_link:
+    type: link_default
+    weight: 12
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_media_images:
+    type: media_library_widget
+    weight: 13
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

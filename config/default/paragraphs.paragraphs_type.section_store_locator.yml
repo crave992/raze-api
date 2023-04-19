@@ -1,0 +1,10 @@
+uuid: 6258fb5b-1cdf-44c0-a21e-daf5be097140
+langcode: en
+status: true
+dependencies: {  }
+id: section_store_locator
+label: 'Section Store Locator'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,55 @@
+uuid: 308dac71-46c0-4792-ab51-3eb1645d0b08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_our_vision.field_headline
+    - field.field.paragraph.section_our_vision.field_link
+    - field.field.paragraph.section_our_vision.field_media_images
+    - field.field.paragraph.section_our_vision.field_title
+    - paragraphs.paragraphs_type.section_our_vision
+  module:
+    - link
+id: paragraph.section_our_vision.default
+targetEntityType: paragraph
+bundle: section_our_vision
+mode: default
+content:
+  field_headline:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_media_images:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

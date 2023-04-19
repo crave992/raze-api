@@ -1,0 +1,23 @@
+uuid: 9ef75676-20f9-43d4-85af-5a0b2cf1d657
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link
+    - paragraphs.paragraphs_type.section_homepage_banner
+  module:
+    - link
+id: paragraph.section_homepage_banner.field_link
+field_name: field_link
+entity_type: paragraph
+bundle: section_homepage_banner
+label: Link
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

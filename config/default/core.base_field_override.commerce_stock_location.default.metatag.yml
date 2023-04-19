@@ -1,0 +1,18 @@
+uuid: 8ea9f990-2ee2-4e91-a215-8ed1d2bd6dd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_stock_local.commerce_stock_location_type.default
+id: commerce_stock_location.default.metatag
+field_name: metatag
+entity_type: commerce_stock_location
+bundle: default
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

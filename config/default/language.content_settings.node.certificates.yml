@@ -1,0 +1,18 @@
+uuid: cdf866a3-7664-4d9f-9f20-0b708a33bdf3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.certificates
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.certificates
+target_entity_type_id: node
+target_bundle: certificates
+default_langcode: site_default
+language_alterable: true

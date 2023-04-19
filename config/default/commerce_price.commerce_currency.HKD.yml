@@ -1,0 +1,9 @@
+uuid: 0d45f28c-163c-4ff0-9a69-5bd1326db246
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: HKD
+name: 'Hong Kong Dollar'
+numericCode: '344'
+symbol: HK$
+fractionDigits: 2

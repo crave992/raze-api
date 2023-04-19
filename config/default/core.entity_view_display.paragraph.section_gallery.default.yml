@@ -1,0 +1,42 @@
+uuid: 74da7993-4bf4-42f5-bec7-ace70b48c803
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_gallery.field_background
+    - field.field.paragraph.section_gallery.field_gallery_items
+    - field.field.paragraph.section_gallery.field_title
+    - paragraphs.paragraphs_type.section_gallery
+  module:
+    - entity_reference_revisions
+    - options
+id: paragraph.section_gallery.default
+targetEntityType: paragraph
+bundle: section_gallery
+mode: default
+content:
+  field_background:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_gallery_items:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

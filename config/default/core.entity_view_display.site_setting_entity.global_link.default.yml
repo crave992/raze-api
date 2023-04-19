@@ -1,0 +1,64 @@
+uuid: f2f7f621-5006-4404-8a96-2aef87c52216
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.site_setting_entity.global_link.field_about_us
+    - field.field.site_setting_entity.global_link.field_store_link
+    - site_settings.site_setting_entity_type.global_link
+  module:
+    - link
+    - user
+id: site_setting_entity.global_link.default
+targetEntityType: site_setting_entity
+bundle: global_link
+mode: default
+content:
+  field_about_us:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_store_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  fieldset:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  user_id:
+    type: author
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

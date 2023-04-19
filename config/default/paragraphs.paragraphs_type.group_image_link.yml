@@ -1,0 +1,10 @@
+uuid: aef16694-f2d4-4f01-bb71-58afdbd43145
+langcode: en
+status: true
+dependencies: {  }
+id: group_image_link
+label: 'Group - Image Link'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

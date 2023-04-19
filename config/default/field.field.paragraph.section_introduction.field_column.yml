@@ -1,0 +1,23 @@
+uuid: 78be317a-cd43-4ea3-9af3-a25b6a99c388
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_column
+    - paragraphs.paragraphs_type.section_introduction
+  module:
+    - options
+id: paragraph.section_introduction.field_column
+field_name: field_column
+entity_type: paragraph
+bundle: section_introduction
+label: Column
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '3'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

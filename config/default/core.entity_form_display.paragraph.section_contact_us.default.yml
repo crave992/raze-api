@@ -1,0 +1,23 @@
+uuid: 344a15dc-cee7-480d-a4d1-c43291be86b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_contact_us.field_title
+    - paragraphs.paragraphs_type.section_contact_us
+id: paragraph.section_contact_us.default
+targetEntityType: paragraph
+bundle: section_contact_us
+mode: default
+content:
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

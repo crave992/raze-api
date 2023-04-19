@@ -1,0 +1,19 @@
+uuid: 2724ff04-11db-49c8-8239-188146515ac9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_table_head
+    - paragraphs.paragraphs_type.tab_table_content
+id: paragraph.tab_table_content.field_table_head
+field_name: field_table_head
+entity_type: paragraph
+bundle: tab_table_content
+label: 'Table Head'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

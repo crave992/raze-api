@@ -1,0 +1,74 @@
+uuid: 81c38d90-e9a8-4ed8-8b18-7c0d19ff8878
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sections
+    - node.type.product_display
+  module:
+    - entity_reference_revisions
+id: node.product_display.field_sections
+field_name: field_sections
+entity_type: node
+bundle: product_display
+label: Sections
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      feature:
+        weight: 17
+        enabled: false
+      group_image_title_description:
+        weight: 18
+        enabled: false
+      menu_block:
+        weight: 19
+        enabled: false
+      menu_blocks:
+        weight: 20
+        enabled: false
+      product_section_feature:
+        weight: 22
+        enabled: false
+      products:
+        weight: 21
+        enabled: false
+      section_featured_articles:
+        weight: 23
+        enabled: false
+      section_homepage_banner:
+        weight: 24
+        enabled: false
+      section_latest_news:
+        weight: 25
+        enabled: false
+      section_our_technology:
+        weight: 26
+        enabled: false
+      section_our_vision:
+        weight: 27
+        enabled: false
+      section_services:
+        weight: 28
+        enabled: false
+      section_solutions:
+        weight: 29
+        enabled: false
+      solution:
+        weight: 30
+        enabled: false
+      stripe_card_token:
+        weight: 31
+        enabled: false
+      test_paragraph:
+        weight: 32
+        enabled: false
+field_type: entity_reference_revisions

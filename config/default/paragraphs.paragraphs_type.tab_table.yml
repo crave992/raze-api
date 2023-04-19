@@ -1,0 +1,10 @@
+uuid: c934f17c-53c0-4132-9ebf-c1966a3fb9bd
+langcode: en
+status: true
+dependencies: {  }
+id: tab_table
+label: 'Tab Table'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

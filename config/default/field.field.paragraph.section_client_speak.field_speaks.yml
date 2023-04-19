@@ -1,0 +1,145 @@
+uuid: 959acac9-23ef-4234-8c24-bbe29064b1f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_speaks
+    - paragraphs.paragraphs_type.section_client_speak
+    - paragraphs.paragraphs_type.speak
+  module:
+    - entity_reference_revisions
+id: paragraph.section_client_speak.field_speaks
+field_name: field_speaks
+entity_type: paragraph
+bundle: section_client_speak
+label: Speaks
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      speak: speak
+    negate: 0
+    target_bundles_drag_drop:
+      feature:
+        weight: 40
+        enabled: false
+      from_library:
+        weight: 41
+        enabled: false
+      group_full_stack:
+        weight: 42
+        enabled: false
+      group_image_link:
+        weight: 43
+        enabled: false
+      group_image_title:
+        weight: 44
+        enabled: false
+      group_image_title_description:
+        weight: 45
+        enabled: false
+      menu_block:
+        weight: 46
+        enabled: false
+      menu_blocks:
+        weight: 47
+        enabled: false
+      product_section_feature:
+        weight: 48
+        enabled: false
+      product_section_highlight:
+        weight: 49
+        enabled: false
+      product_section_how_it_works:
+        weight: 50
+        enabled: false
+      product_section_related:
+        weight: 51
+        enabled: false
+      section_banner:
+        weight: 52
+        enabled: false
+      section_client_speak:
+        weight: 54
+        enabled: false
+      section_clients:
+        weight: 53
+        enabled: false
+      section_contact_us:
+        weight: 55
+        enabled: false
+      section_cta:
+        weight: 56
+        enabled: false
+      section_explore_more:
+        weight: 57
+        enabled: false
+      section_faq:
+        weight: 58
+        enabled: false
+      section_feature_list:
+        weight: 60
+        enabled: false
+      section_featured_articles:
+        weight: 59
+        enabled: false
+      section_gallery:
+        weight: 61
+        enabled: false
+      section_homepage_banner:
+        weight: 62
+        enabled: false
+      section_latest_news:
+        weight: 63
+        enabled: false
+      section_other_showcase:
+        weight: 64
+        enabled: false
+      section_our_technology:
+        weight: 65
+        enabled: false
+      section_our_vision:
+        weight: 66
+        enabled: false
+      section_product_by_type:
+        weight: 67
+        enabled: false
+      section_product_special:
+        weight: 68
+        enabled: false
+      section_services:
+        weight: 69
+        enabled: false
+      section_showcase_banner:
+        weight: 70
+        enabled: false
+      section_slider:
+        weight: 71
+        enabled: false
+      section_solutions:
+        weight: 72
+        enabled: false
+      section_testimonials:
+        weight: 73
+        enabled: false
+      section_we_provide:
+        weight: 74
+        enabled: false
+      solution:
+        weight: 75
+        enabled: false
+      speak:
+        weight: 76
+        enabled: true
+      stripe_card_token:
+        weight: 77
+        enabled: false
+      testimonial:
+        weight: 78
+        enabled: false
+field_type: entity_reference_revisions

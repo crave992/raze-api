@@ -1,0 +1,14 @@
+uuid:
+  value
+field_title:
+  value
+field_description:
+  value
+field_testimonials:
+  getReference:
+    field_media_image:
+      getMedia|large
+    field_description:
+      value
+field_link:
+  getLink

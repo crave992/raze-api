@@ -1,0 +1,18 @@
+uuid: 3ec1b1c6-8ed2-42dd-955b-784414598eee
+langcode: en
+status: true
+dependencies:
+  module:
+    - rhm_store
+    - serialization
+    - user
+id: rhm_store_account_payment
+plugin_id: rhm_store_account_payment
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie

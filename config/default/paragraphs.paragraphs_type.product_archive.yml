@@ -1,0 +1,10 @@
+uuid: 88d709dc-d7d2-437f-bebb-937524585536
+langcode: en
+status: true
+dependencies: {  }
+id: product_archive
+label: 'Product Archive'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

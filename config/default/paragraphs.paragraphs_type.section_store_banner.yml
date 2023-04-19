@@ -1,0 +1,10 @@
+uuid: 18a7f586-62a6-498c-ada9-75afa2284b84
+langcode: en
+status: true
+dependencies: {  }
+id: section_store_banner
+label: 'Section Store Banner'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

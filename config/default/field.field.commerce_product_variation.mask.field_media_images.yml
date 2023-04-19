@@ -1,0 +1,29 @@
+uuid: b8956d21-0195-4494-91ca-ab01d062c87b
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.mask
+    - field.storage.commerce_product_variation.field_media_images
+    - media.type.image
+id: commerce_product_variation.mask.field_media_images
+field_name: field_media_images
+entity_type: commerce_product_variation
+bundle: mask
+label: 'Media Images'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

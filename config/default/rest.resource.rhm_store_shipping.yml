@@ -1,0 +1,18 @@
+uuid: e63ede72-d348-4b17-bcdc-a6ce386e7c45
+langcode: en
+status: true
+dependencies:
+  module:
+    - rhm_store
+    - serialization
+    - user
+id: rhm_store_shipping
+plugin_id: rhm_store_shipping
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie

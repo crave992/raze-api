@@ -1,0 +1,20 @@
+uuid: e55d07c8-5e06-4e4c-886c-9166b6a5ed93
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_order
+    - commerce_shipping
+id: commerce_order.shipments
+field_name: shipments
+entity_type: commerce_order
+type: entity_reference
+settings:
+  target_type: commerce_shipment
+module: core
+locked: true
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

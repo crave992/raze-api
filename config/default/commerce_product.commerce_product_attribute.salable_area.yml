@@ -1,0 +1,7 @@
+uuid: e75c2718-c1a7-4a39-9763-1bbfa839326d
+langcode: en
+status: true
+dependencies: {  }
+id: salable_area
+label: 'Salable Area'
+elementType: select

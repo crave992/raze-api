@@ -1,0 +1,55 @@
+uuid: e409f660-c59f-449e-b9cf-d2220d7640ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_solutions
+    - paragraphs.paragraphs_type.section_solutions
+    - paragraphs.paragraphs_type.solution
+  module:
+    - entity_reference_revisions
+id: paragraph.section_solutions.field_solutions
+field_name: field_solutions
+entity_type: paragraph
+bundle: section_solutions
+label: Solutions
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      solution: solution
+    negate: 0
+    target_bundles_drag_drop:
+      menu_block:
+        weight: 10
+        enabled: false
+      menu_blocks:
+        weight: 11
+        enabled: false
+      products:
+        weight: 12
+        enabled: false
+      section_featured_articles:
+        weight: 13
+        enabled: false
+      section_homepage_banner:
+        weight: 14
+        enabled: false
+      section_solutions:
+        weight: 15
+        enabled: false
+      solution:
+        weight: 16
+        enabled: true
+      stripe_card_token:
+        weight: 17
+        enabled: false
+      test_paragraph:
+        weight: 18
+        enabled: false
+field_type: entity_reference_revisions

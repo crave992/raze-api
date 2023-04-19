@@ -1,0 +1,21 @@
+name: raze
+recipe: drupal9
+
+config:
+  via: nginx
+  webroot: ./web
+  php: '7.4'
+  config:
+    server: .lando/nginx.conf
+    php: .lando/php.ini
+
+services:
+  database:
+    type: mariadb
+    config:
+      confd: .lando/mysql.cnf
+  appserver:
+    config:
+      php: .lando/php.ini
+env_file:
+  - .env

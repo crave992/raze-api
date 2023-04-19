@@ -1,0 +1,10 @@
+uuid: 6e4c3a1d-3344-4dd7-a05e-849662b83ecc
+langcode: en
+status: true
+dependencies: {  }
+id: section_table_with_introduction
+label: 'Section Table with Introduction'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

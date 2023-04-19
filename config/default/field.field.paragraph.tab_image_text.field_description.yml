@@ -1,0 +1,21 @@
+uuid: 6a553fe4-48b6-41f9-acb0-130c9f5193ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.tab_image_text
+  module:
+    - text
+id: paragraph.tab_image_text.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: tab_image_text
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

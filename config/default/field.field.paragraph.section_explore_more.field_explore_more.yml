@@ -1,0 +1,103 @@
+uuid: d20fbd37-0a98-43eb-af03-643639a51400
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_explore_more
+    - paragraphs.paragraphs_type.group_image_link
+    - paragraphs.paragraphs_type.section_explore_more
+  module:
+    - entity_reference_revisions
+id: paragraph.section_explore_more.field_explore_more
+field_name: field_explore_more
+entity_type: paragraph
+bundle: section_explore_more
+label: 'Explore More'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      group_image_link: group_image_link
+    negate: 0
+    target_bundles_drag_drop:
+      feature:
+        weight: 26
+        enabled: false
+      from_library:
+        weight: 27
+        enabled: false
+      group_image_link:
+        weight: 28
+        enabled: true
+      group_image_title_description:
+        weight: 29
+        enabled: false
+      menu_block:
+        weight: 30
+        enabled: false
+      menu_blocks:
+        weight: 31
+        enabled: false
+      product_section_feature:
+        weight: 33
+        enabled: false
+      product_section_related:
+        weight: 34
+        enabled: false
+      products:
+        weight: 32
+        enabled: false
+      section_banner:
+        weight: 35
+        enabled: false
+      section_explore_more:
+        weight: 36
+        enabled: false
+      section_featured_articles:
+        weight: 37
+        enabled: false
+      section_homepage_banner:
+        weight: 38
+        enabled: false
+      section_latest_news:
+        weight: 39
+        enabled: false
+      section_our_technology:
+        weight: 40
+        enabled: false
+      section_our_vision:
+        weight: 41
+        enabled: false
+      section_product_by_type:
+        weight: 42
+        enabled: false
+      section_product_special:
+        weight: 43
+        enabled: false
+      section_services:
+        weight: 44
+        enabled: false
+      section_solutions:
+        weight: 45
+        enabled: false
+      section_testimonials:
+        weight: 46
+        enabled: false
+      solution:
+        weight: 47
+        enabled: false
+      stripe_card_token:
+        weight: 48
+        enabled: false
+      test_paragraph:
+        weight: 50
+        enabled: false
+      testimonial:
+        weight: 49
+        enabled: false
+field_type: entity_reference_revisions

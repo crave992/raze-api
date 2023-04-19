@@ -1,0 +1,10 @@
+uuid: 60815a85-06cc-4f17-ac40-61e0ae1466be
+langcode: en
+status: true
+dependencies: {  }
+id: section_general_content
+label: 'Section General Content'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

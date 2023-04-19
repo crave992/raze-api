@@ -1,0 +1,10 @@
+uuid: 975f3c96-7d86-44fb-b513-9e2c2b680400
+langcode: en
+status: true
+dependencies: {  }
+id: paint
+label: Paint
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

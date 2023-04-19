@@ -1,0 +1,19 @@
+uuid: 806d3b02-9768-4b3a-a4ac-cff72f781384
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_period
+    - node.type.store
+id: node.store.field_period
+field_name: field_period
+entity_type: node
+bundle: store
+label: Period
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,10 @@
+uuid: 74b4c43f-18d5-4b33-a296-1f97c2fc15bf
+langcode: en
+status: true
+dependencies: {  }
+id: group_image_title
+label: 'Group - Image Title'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

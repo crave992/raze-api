@@ -1,0 +1,29 @@
+uuid: 5bfd339d-ec38-42f4-8e83-aca8a5b95909
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_showcase
+    - node.type.showcase
+    - paragraphs.paragraphs_type.speak
+id: paragraph.speak.field_showcase
+field_name: field_showcase
+entity_type: paragraph
+bundle: speak
+label: Showcase
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      showcase: showcase
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,47 @@
+uuid: c6d1ffa8-549c-4a4e-ba81-8278515e7a51
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.coating_service
+    - field.field.commerce_product_variation.coating_service.attribute_salable_area
+    - field.field.commerce_product_variation.coating_service.field_media_images
+  module:
+    - commerce_price
+id: commerce_product_variation.coating_service.default
+targetEntityType: commerce_product_variation
+bundle: coating_service
+mode: default
+content:
+  field_media_images:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  list_price:
+    type: commerce_price_default
+    label: above
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  price:
+    type: commerce_price_default
+    label: above
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  attribute_salable_area: true
+  langcode: true
+  product_id: true
+  sku: true
+  title: true

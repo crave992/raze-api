@@ -1,0 +1,127 @@
+uuid: 9b030531-9c73-4b16-829b-f8861f2fa25b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_provide_items
+    - paragraphs.paragraphs_type.group_image_title
+    - paragraphs.paragraphs_type.section_we_provide
+  module:
+    - entity_reference_revisions
+id: paragraph.section_we_provide.field_provide_items
+field_name: field_provide_items
+entity_type: paragraph
+bundle: section_we_provide
+label: 'Provide Items'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      group_image_title: group_image_title
+    negate: 0
+    target_bundles_drag_drop:
+      feature:
+        weight: 34
+        enabled: false
+      from_library:
+        weight: 35
+        enabled: false
+      group_full_stack:
+        weight: 36
+        enabled: false
+      group_image_link:
+        weight: 37
+        enabled: false
+      group_image_title:
+        weight: 38
+        enabled: true
+      group_image_title_description:
+        weight: 39
+        enabled: false
+      menu_block:
+        weight: 40
+        enabled: false
+      menu_blocks:
+        weight: 41
+        enabled: false
+      product_section_feature:
+        weight: 42
+        enabled: false
+      product_section_highlight:
+        weight: 43
+        enabled: false
+      product_section_how_it_works:
+        weight: 44
+        enabled: false
+      product_section_related:
+        weight: 45
+        enabled: false
+      section_banner:
+        weight: 46
+        enabled: false
+      section_contact_us:
+        weight: 47
+        enabled: false
+      section_cta:
+        weight: 48
+        enabled: false
+      section_explore_more:
+        weight: 49
+        enabled: false
+      section_faq:
+        weight: 50
+        enabled: false
+      section_feature_list:
+        weight: 52
+        enabled: false
+      section_featured_articles:
+        weight: 51
+        enabled: false
+      section_homepage_banner:
+        weight: 53
+        enabled: false
+      section_latest_news:
+        weight: 54
+        enabled: false
+      section_our_technology:
+        weight: 55
+        enabled: false
+      section_our_vision:
+        weight: 56
+        enabled: false
+      section_product_by_type:
+        weight: 57
+        enabled: false
+      section_product_special:
+        weight: 58
+        enabled: false
+      section_services:
+        weight: 59
+        enabled: false
+      section_slider:
+        weight: 60
+        enabled: false
+      section_solutions:
+        weight: 61
+        enabled: false
+      section_testimonials:
+        weight: 62
+        enabled: false
+      section_we_provide:
+        weight: 63
+        enabled: false
+      solution:
+        weight: 64
+        enabled: false
+      stripe_card_token:
+        weight: 65
+        enabled: false
+      testimonial:
+        weight: 66
+        enabled: false
+field_type: entity_reference_revisions

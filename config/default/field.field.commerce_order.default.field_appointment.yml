@@ -1,0 +1,29 @@
+uuid: 15ca5ec5-94e0-4c1c-8c8f-fa8a54584382
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_order.commerce_order_type.default
+    - eck.eck_type.appointment.appointment
+    - field.storage.commerce_order.field_appointment
+id: commerce_order.default.field_appointment
+field_name: field_appointment
+entity_type: commerce_order
+bundle: default
+label: Appointment
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:appointment'
+  handler_settings:
+    target_bundles:
+      appointment: appointment
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,10 @@
+uuid: 03273615-ad0a-42e6-913a-7673bf08bbbd
+langcode: en
+status: true
+dependencies: {  }
+id: section_all_showcase
+label: 'Section All Showcase'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

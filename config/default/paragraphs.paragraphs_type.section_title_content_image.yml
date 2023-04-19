@@ -1,0 +1,10 @@
+uuid: 54dcdc3d-a4da-4997-9fe0-39dd09683826
+langcode: en
+status: true
+dependencies: {  }
+id: section_title_content_image
+label: 'Section Title Content Image'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

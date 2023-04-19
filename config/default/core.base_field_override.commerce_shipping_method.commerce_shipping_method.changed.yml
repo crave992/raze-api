@@ -1,0 +1,18 @@
+uuid: 70e9baa0-a57c-4ab3-96f0-19d7f6386ce3
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_shipping
+id: commerce_shipping_method.commerce_shipping_method.changed
+field_name: changed
+entity_type: commerce_shipping_method
+bundle: commerce_shipping_method
+label: Changed
+description: 'The time when the shipping method was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

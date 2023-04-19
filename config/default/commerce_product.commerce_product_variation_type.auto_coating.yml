@@ -1,0 +1,10 @@
+uuid: e20087e8-4cff-4afd-a0d4-d40c3d0fb54a
+langcode: en
+status: true
+dependencies: {  }
+id: auto_coating
+label: 'Auto Coating'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: false

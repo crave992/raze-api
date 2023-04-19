@@ -1,0 +1,40 @@
+uuid: 4ad96f81-4bc2-4bff-914c-7594c976e0a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.custom_page.field_meta
+    - field.field.node.custom_page.field_sections
+    - node.type.custom_page
+  module:
+    - entity_reference_revisions
+    - metatag
+    - user
+id: node.custom_page.default
+targetEntityType: node
+bundle: custom_page
+mode: default
+content:
+  field_meta:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_sections:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

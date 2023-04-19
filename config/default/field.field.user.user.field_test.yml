@@ -1,0 +1,24 @@
+uuid: be25121a-41a1-44f3-b7ff-2b19a32b0e1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_test
+  module:
+    - user
+id: user.user.field_test
+field_name: field_test
+entity_type: user
+bundle: user
+label: test
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

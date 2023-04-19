@@ -1,0 +1,22 @@
+uuid: c463a5e7-1cdc-4a15-b40b-d98cb472ffba
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.coating_service
+id: commerce_product.coating_service.status
+field_name: status
+entity_type: commerce_product
+bundle: coating_service
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

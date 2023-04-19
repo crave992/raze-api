@@ -1,0 +1,18 @@
+uuid: d92bc14f-9f88-40cf-8641-752f1f5d0a88
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.stripe_card_token
+id: paragraph.stripe_card_token.created
+field_name: created
+entity_type: paragraph
+bundle: stripe_card_token
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

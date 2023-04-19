@@ -1,0 +1,68 @@
+uuid: db4d0e94-acc9-4877-8e02-226a770d323b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_table_with_introduction.field_description
+    - field.field.paragraph.section_table_with_introduction.field_media_image
+    - field.field.paragraph.section_table_with_introduction.field_tabs_table
+    - field.field.paragraph.section_table_with_introduction.field_title
+    - paragraphs.paragraphs_type.section_table_with_introduction
+  module:
+    - media_library
+    - paragraphs
+    - text
+id: paragraph.section_table_with_introduction.default
+targetEntityType: paragraph
+bundle: section_table_with_introduction
+mode: default
+content:
+  field_description:
+    type: text_textarea
+    weight: 11
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_media_image:
+    type: media_library_widget
+    weight: 12
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_tabs_table:
+    type: paragraphs
+    weight: 13
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

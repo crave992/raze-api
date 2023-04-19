@@ -1,0 +1,23 @@
+uuid: a5294cd7-bf2d-45e3-8df9-8e577b21c178
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.coating_service
+    - field.storage.commerce_product.body
+  module:
+    - text
+id: commerce_product.coating_service.body
+field_name: body
+entity_type: commerce_product
+bundle: coating_service
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

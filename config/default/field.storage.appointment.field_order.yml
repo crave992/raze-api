@@ -1,0 +1,20 @@
+uuid: c35ec9fb-c160-4b8f-a3d2-f462777a3634
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_order
+    - eck
+id: appointment.field_order
+field_name: field_order
+entity_type: appointment
+type: entity_reference
+settings:
+  target_type: commerce_order
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

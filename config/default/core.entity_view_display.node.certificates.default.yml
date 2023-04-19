@@ -1,0 +1,48 @@
+uuid: 494be2bf-5847-4273-b4c3-635f3c2e1ee1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.certificates.body
+    - field.field.node.certificates.field_file
+    - field.field.node.certificates.field_meta
+    - node.type.certificates
+  module:
+    - metatag
+    - text
+    - user
+id: node.certificates.default
+targetEntityType: node
+bundle: certificates
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_file:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_meta:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

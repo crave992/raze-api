@@ -1,0 +1,18 @@
+uuid: 8b7b566c-24b5-4bc4-9349-630eeb015424
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.product_display
+id: node.product_display.created
+field_name: created
+entity_type: node
+bundle: product_display
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

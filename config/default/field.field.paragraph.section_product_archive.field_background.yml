@@ -1,0 +1,23 @@
+uuid: 5027c652-9c05-4ff4-ba67-f4ac47bfe992
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background
+    - paragraphs.paragraphs_type.section_product_archive
+  module:
+    - options
+id: paragraph.section_product_archive.field_background
+field_name: field_background
+entity_type: paragraph
+bundle: section_product_archive
+label: Background
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: white
+default_value_callback: ''
+settings: {  }
+field_type: list_string

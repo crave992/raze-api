@@ -1,0 +1,8 @@
+uuid: bdca2f24-bb3f-48e8-a384-ad7c147ff044
+langcode: en
+status: true
+dependencies: {  }
+name: 'Showcase Type'
+vid: showcase_type
+description: ''
+weight: 0

@@ -1,0 +1,10 @@
+uuid: 41bd8a95-8923-4784-92de-6d5db37ac41d
+langcode: en
+status: true
+dependencies: {  }
+id: section_responsibility
+label: 'Section Responsibility'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

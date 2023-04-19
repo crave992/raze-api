@@ -1,0 +1,33 @@
+uuid: 10563b08-f4a9-430e-b635-26fcf2ee0109
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.product_section_how_it_works.field_items
+    - field.field.paragraph.product_section_how_it_works.field_title
+    - paragraphs.paragraphs_type.product_section_how_it_works
+  module:
+    - entity_reference_revisions
+id: paragraph.product_section_how_it_works.default
+targetEntityType: paragraph
+bundle: product_section_how_it_works
+mode: default
+content:
+  field_items:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,10 @@
+uuid: d35ef6f6-a769-41d5-83ef-69f112b2186b
+langcode: en
+status: true
+dependencies: {  }
+id: product_section_how_it_works
+label: 'Product How It Works'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

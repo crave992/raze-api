@@ -1,0 +1,15 @@
+uuid: e29e25ef-9712-4d49-8ed2-f1d72e63de3a
+langcode: zh-hant
+status: true
+dependencies: {  }
+name: horizontal
+label: Horizontal
+effects:
+  49726881-cdcd-4ca7-9cfc-0697c39ae003:
+    uuid: 49726881-cdcd-4ca7-9cfc-0697c39ae003
+    id: image_scale
+    weight: 1
+    data:
+      width: 1425
+      height: 810
+      upscale: false

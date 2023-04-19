@@ -1,0 +1,23 @@
+uuid: ffaaff2a-defd-48ad-b541-37574f01d290
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background
+    - paragraphs.paragraphs_type.section_gallery
+  module:
+    - options
+id: paragraph.section_gallery.field_background
+field_name: field_background
+entity_type: paragraph
+bundle: section_gallery
+label: Background
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: gray
+default_value_callback: ''
+settings: {  }
+field_type: list_string

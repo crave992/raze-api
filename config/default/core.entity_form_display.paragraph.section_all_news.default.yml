@@ -1,0 +1,23 @@
+uuid: 1c64525b-04cb-45fd-b708-a25e7a0133ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_all_news.field_title
+    - paragraphs.paragraphs_type.section_all_news
+id: paragraph.section_all_news.default
+targetEntityType: paragraph
+bundle: section_all_news
+mode: default
+content:
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,22 @@
+uuid:
+  value
+field_articles:
+  getReference:
+    path:
+      alias
+    title:
+      value
+    body:
+      value
+    created:
+      getDate|article
+    field_media_image:
+      getMedia|horizontal
+    field_category:
+      getReference:
+        name:
+          value
+        tid:
+          value
+
+

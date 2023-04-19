@@ -1,0 +1,18 @@
+uuid: 95793dfb-18bc-44ed-b671-685e6b5b09dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - rhm_rest
+    - serialization
+    - user
+id: rhm_certificates
+plugin_id: rhm_certificates
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

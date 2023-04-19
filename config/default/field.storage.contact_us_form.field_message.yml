@@ -1,0 +1,19 @@
+uuid: b4764544-6549-4bf8-adef-5a195f9754ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - text
+id: contact_us_form.field_message
+field_name: field_message
+entity_type: contact_us_form
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

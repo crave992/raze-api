@@ -1,0 +1,18 @@
+uuid: fb5ec8a2-7070-4b16-a149-ba4b7877b73e
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_featured_articles
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.section_featured_articles
+target_entity_type_id: paragraph
+target_bundle: section_featured_articles
+default_langcode: site_default
+language_alterable: true

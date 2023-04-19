@@ -1,0 +1,10 @@
+uuid: 38db338b-ae5e-4539-96c8-98dec416da36
+langcode: en
+status: true
+dependencies: {  }
+id: menu_block
+label: 'Menu Block'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

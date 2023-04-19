@@ -1,0 +1,19 @@
+uuid: 23bdea69-3c2e-4295-88d5-249c31cd447f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.section_paint_description
+id: paragraph.section_paint_description.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: section_paint_description
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

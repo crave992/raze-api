@@ -1,0 +1,18 @@
+uuid: 5586f9e1-015d-4c47-87f6-b46b96af14ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_shipping
+id: commerce_shipping_method.commerce_shipping_method.name
+field_name: name
+entity_type: commerce_shipping_method
+bundle: commerce_shipping_method
+label: Name
+description: 'The shipping method name.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

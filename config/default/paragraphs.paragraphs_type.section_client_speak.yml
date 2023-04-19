@@ -1,0 +1,10 @@
+uuid: 5674b50b-1b1e-43db-9ea6-9c285726dcb7
+langcode: en
+status: true
+dependencies: {  }
+id: section_client_speak
+label: 'Section Client Speak'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

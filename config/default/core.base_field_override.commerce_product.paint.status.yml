@@ -1,0 +1,22 @@
+uuid: af4b53ac-87d5-4bc4-acf3-fd5dc8b182b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.paint
+id: commerce_product.paint.status
+field_name: status
+entity_type: commerce_product
+bundle: paint
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

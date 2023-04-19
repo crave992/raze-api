@@ -1,0 +1,166 @@
+uuid: 064f91f3-ca12-4ebd-8ec2-423ee82ed277
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tab_content
+    - paragraphs.paragraphs_type.tab
+    - paragraphs.paragraphs_type.tab_image_text
+  module:
+    - entity_reference_revisions
+id: paragraph.tab.field_tab_content
+field_name: field_tab_content
+entity_type: paragraph
+bundle: tab
+label: 'Tab Content'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      tab_image_text: tab_image_text
+    negate: 0
+    target_bundles_drag_drop:
+      feature:
+        weight: 47
+        enabled: false
+      from_library:
+        weight: 48
+        enabled: false
+      group_full_stack:
+        weight: 49
+        enabled: false
+      group_image_link:
+        weight: 50
+        enabled: false
+      group_image_title:
+        weight: 51
+        enabled: false
+      group_image_title_description:
+        weight: 52
+        enabled: false
+      menu_block:
+        weight: 53
+        enabled: false
+      menu_blocks:
+        weight: 54
+        enabled: false
+      product_section_feature:
+        weight: 55
+        enabled: false
+      product_section_highlight:
+        weight: 56
+        enabled: false
+      product_section_how_it_works:
+        weight: 57
+        enabled: false
+      product_section_related:
+        weight: 58
+        enabled: false
+      section_all_showcase:
+        weight: 59
+        enabled: false
+      section_banner:
+        weight: 60
+        enabled: false
+      section_client_speak:
+        weight: 62
+        enabled: false
+      section_clients:
+        weight: 61
+        enabled: false
+      section_contact_us:
+        weight: 63
+        enabled: false
+      section_cta:
+        weight: 64
+        enabled: false
+      section_cta_2:
+        weight: 65
+        enabled: false
+      section_explore_more:
+        weight: 66
+        enabled: false
+      section_faq:
+        weight: 67
+        enabled: false
+      section_feature_list:
+        weight: 69
+        enabled: false
+      section_featured_articles:
+        weight: 68
+        enabled: false
+      section_gallery:
+        weight: 70
+        enabled: false
+      section_homepage_banner:
+        weight: 71
+        enabled: false
+      section_introduction:
+        weight: 72
+        enabled: false
+      section_latest_news:
+        weight: 73
+        enabled: false
+      section_other_showcase:
+        weight: 74
+        enabled: false
+      section_our_technology:
+        weight: 75
+        enabled: false
+      section_our_vision:
+        weight: 76
+        enabled: false
+      section_product_by_type:
+        weight: 77
+        enabled: false
+      section_product_special:
+        weight: 78
+        enabled: false
+      section_responsibility:
+        weight: 79
+        enabled: false
+      section_services:
+        weight: 80
+        enabled: false
+      section_showcase_banner:
+        weight: 81
+        enabled: false
+      section_slider:
+        weight: 82
+        enabled: false
+      section_solutions:
+        weight: 83
+        enabled: false
+      section_tabs:
+        weight: 84
+        enabled: false
+      section_testimonials:
+        weight: 85
+        enabled: false
+      section_we_provide:
+        weight: 86
+        enabled: false
+      solution:
+        weight: 87
+        enabled: false
+      speak:
+        weight: 88
+        enabled: false
+      stripe_card_token:
+        weight: 89
+        enabled: false
+      tab:
+        weight: 90
+        enabled: false
+      tab_image_text:
+        weight: 91
+        enabled: true
+      testimonial:
+        weight: 92
+        enabled: false
+field_type: entity_reference_revisions

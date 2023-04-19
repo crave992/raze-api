@@ -1,0 +1,28 @@
+uuid: f7d74954-1819-4d5c-bbfd-9ee7d7e40442
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_product_by_type.field_background
+    - field.field.paragraph.section_product_by_type.field_product_type
+    - paragraphs.paragraphs_type.section_product_by_type
+id: paragraph.section_product_by_type.default
+targetEntityType: paragraph
+bundle: section_product_by_type
+mode: default
+content:
+  field_background:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_product_type:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

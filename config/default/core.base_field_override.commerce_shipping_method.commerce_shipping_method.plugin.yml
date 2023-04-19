@@ -1,0 +1,19 @@
+uuid: 7f72e672-3ad9-452e-8d39-66cda2171c2d
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce
+    - commerce_shipping
+id: commerce_shipping_method.commerce_shipping_method.plugin
+field_name: plugin
+entity_type: commerce_shipping_method
+bundle: commerce_shipping_method
+label: Plugin
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: 'commerce_plugin_item:commerce_shipping_method'

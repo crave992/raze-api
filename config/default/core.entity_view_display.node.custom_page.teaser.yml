@@ -1,0 +1,25 @@
+uuid: ae49672d-620e-43d2-9c9f-9c3ebfaae620
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.custom_page.field_meta
+    - field.field.node.custom_page.field_sections
+    - node.type.custom_page
+  module:
+    - user
+id: node.custom_page.teaser
+targetEntityType: node
+bundle: custom_page
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_meta: true
+  field_sections: true
+  langcode: true

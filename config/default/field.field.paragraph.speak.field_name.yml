@@ -1,0 +1,19 @@
+uuid: 4c494a14-a0c4-45a4-97f8-29c7c1835560
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_name
+    - paragraphs.paragraphs_type.speak
+id: paragraph.speak.field_name
+field_name: field_name
+entity_type: paragraph
+bundle: speak
+label: Name
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

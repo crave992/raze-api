@@ -1,0 +1,18 @@
+uuid: 3ed92593-3335-4421-a8b8-9774121fb866
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Product Display'
+type: product_display
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

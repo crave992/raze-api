@@ -1,0 +1,71 @@
+uuid: d5865e9a-723f-4604-83ce-29cc89d9b1e8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KUumpKGaihwt7ld0Ba82jPUpgKDO5aE066wdVfFAztU
+id: content
+label: Content
+groups:
+  section:
+    label: Section
+    id: section
+    weight: '0'
+  banner:
+    label: Banner
+    id: banner
+    weight: '1'
+  slider:
+    label: Slider
+    id: slider
+    weight: '2'
+  cta:
+    label: CTA
+    id: cta
+    weight: 3
+map:
+  test_paragraph: section
+  section_latest_news: section
+  section_our_technology: section
+  section_services: section
+  section_solutions: section
+  section_testimonials: section
+  section_product_by_type: section
+  section_product_special: section
+  section_explore_more: section
+  product_section_feature: section
+  product_section_related: section
+  product_section_highlight: section
+  section_slider: section
+  section_feature_list: section
+  section_contact_us: section
+  product_section_how_it_works: section
+  section_faq: section
+  section_we_provide: section
+  section_other_showcase: section
+  section_banner: banner
+  section_homepage_banner: banner
+  section_showcase_banner: banner
+  section_clients: slider
+  section_gallery: slider
+  section_our_vision: slider
+  section_client_speak: slider
+  section_all_showcase: section
+  section_introduction: section
+  section_responsibility: section
+  section_cta: cta
+  section_cta_2: cta
+  section_tabs: section
+  section_certificate: section
+  section_content_box: section
+  section_table_with_introduction: section
+  section_featured_articles: banner
+  section_all_news: section
+  section_product_archive: section
+  section_store_banner: banner
+  section_store_locator: section
+  section_anchor_with_content: section
+  section_general_content: section
+  section_title_content_image: section
+  section_paint_description: section
+  section_quick_actions: section

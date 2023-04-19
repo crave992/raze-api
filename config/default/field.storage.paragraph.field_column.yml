@@ -1,0 +1,27 @@
+uuid: 455050b7-f3e5-41ee-b43d-677310af0450
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_column
+field_name: field_column
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '3'
+      label: '3 Column per row'
+    -
+      value: '4'
+      label: '4 Column per row'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,18 @@
+title:
+  value
+body:
+  value
+field_media_image:
+  getMedia
+field_media_images:
+  getMedia
+field_category:
+  getReference:
+    name:
+      value
+created:
+  value
+author:
+  value
+field_article_sections:
+  getParagraph

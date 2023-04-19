@@ -1,0 +1,18 @@
+uuid: a5a0df58-a8ff-4b34-b307-9bfedf089783
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.contact_us_form.contact_us_form_data
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: contact_us_form.contact_us_form_data
+target_entity_type_id: contact_us_form
+target_bundle: contact_us_form_data
+default_langcode: site_default
+language_alterable: false

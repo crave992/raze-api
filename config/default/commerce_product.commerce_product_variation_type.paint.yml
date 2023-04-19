@@ -1,0 +1,11 @@
+uuid: fcf75923-9035-46b2-b07d-61121bda2ecb
+langcode: en
+status: true
+dependencies: {  }
+id: paint
+label: Paint
+traits:
+  - purchasable_entity_shippable
+locked: false
+orderItemType: default
+generateTitle: true

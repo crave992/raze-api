@@ -1,0 +1,50 @@
+uuid: 642dde5c-b808-4e39-8e8f-33d693b58f9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.speak.field_description
+    - field.field.paragraph.speak.field_name
+    - field.field.paragraph.speak.field_showcase
+    - field.field.paragraph.speak.field_video
+    - paragraphs.paragraphs_type.speak
+  module:
+    - text
+id: paragraph.speak.default
+targetEntityType: paragraph
+bundle: speak
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_showcase:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_video:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

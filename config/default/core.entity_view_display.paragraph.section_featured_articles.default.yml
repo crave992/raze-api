@@ -1,0 +1,21 @@
+uuid: 57e97f41-9692-463d-88ad-d93b5b22db20
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_featured_articles.field_articles
+    - paragraphs.paragraphs_type.section_featured_articles
+id: paragraph.section_featured_articles.default
+targetEntityType: paragraph
+bundle: section_featured_articles
+mode: default
+content:
+  field_articles:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

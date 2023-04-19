@@ -1,0 +1,12 @@
+uuid:
+  value
+field_title:
+  value
+field_items:
+  getReference:
+    field_media_image:
+      getMedia|square
+    field_link:
+      getLink
+    field_description:
+      value

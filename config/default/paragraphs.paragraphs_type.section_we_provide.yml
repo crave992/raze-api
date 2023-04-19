@@ -1,0 +1,10 @@
+uuid: 688282a3-1809-4505-9b10-020f0e27186c
+langcode: en
+status: true
+dependencies: {  }
+id: section_we_provide
+label: 'Section We Provide'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

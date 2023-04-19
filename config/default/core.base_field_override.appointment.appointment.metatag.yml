@@ -1,0 +1,18 @@
+uuid: 24df5b3d-2975-420e-8e55-29c4611650ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.appointment.appointment
+id: appointment.appointment.metatag
+field_name: metatag
+entity_type: appointment
+bundle: appointment
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

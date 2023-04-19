@@ -1,0 +1,22 @@
+uuid: e8671bb8-bbae-40d4-b59e-744651c49373
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_tabs
+id: paragraph.section_tabs.status
+field_name: status
+entity_type: paragraph
+bundle: section_tabs
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

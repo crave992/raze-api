@@ -1,0 +1,19 @@
+uuid: a3a864dd-3ee0-4453-9d9e-aefcace520e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_headline
+    - paragraphs.paragraphs_type.group_image_title_description
+id: paragraph.group_image_title_description.field_headline
+field_name: field_headline
+entity_type: paragraph
+bundle: group_image_title_description
+label: Headline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

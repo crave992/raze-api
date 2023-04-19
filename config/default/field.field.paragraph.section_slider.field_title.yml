@@ -1,0 +1,19 @@
+uuid: a612aac6-01fb-4688-b225-ba8094074233
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.section_slider
+id: paragraph.section_slider.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: section_slider
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

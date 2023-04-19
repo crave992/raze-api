@@ -1,0 +1,29 @@
+uuid: 41aaf580-1458-493c-8eab-0bf974670d81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.site_setting_entity.field_logo
+    - media.type.image
+    - site_settings.site_setting_entity_type.footer_content
+id: site_setting_entity.footer_content.field_logo
+field_name: field_logo
+entity_type: site_setting_entity
+bundle: footer_content
+label: Logo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

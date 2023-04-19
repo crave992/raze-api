@@ -1,0 +1,9 @@
+uuid: 258facec-0646-4660-847e-bc297c76789f
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.contact_us_form
+name: 'Contact Us Form Data'
+type: contact_us_form_data
+description: ''

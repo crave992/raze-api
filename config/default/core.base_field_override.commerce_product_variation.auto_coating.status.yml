@@ -1,0 +1,22 @@
+uuid: cc698962-700b-4f9d-83fe-d3eb79df8582
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.auto_coating
+id: commerce_product_variation.auto_coating.status
+field_name: status
+entity_type: commerce_product_variation
+bundle: auto_coating
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

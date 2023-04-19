@@ -1,0 +1,19 @@
+uuid: 7d95b7c7-34df-4390-a014-c8a1473da573
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.section_our_vision
+id: paragraph.section_our_vision.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: section_our_vision
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

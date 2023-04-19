@@ -1,0 +1,18 @@
+uuid: acf968fc-6204-46a1-ba97-85a1c7f617c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+id: commerce_product.default.title
+field_name: title
+entity_type: commerce_product
+bundle: default
+label: Title
+description: 'The product title.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

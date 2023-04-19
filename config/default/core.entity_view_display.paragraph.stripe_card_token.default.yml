@@ -1,0 +1,32 @@
+uuid: 1a5be68f-7271-45b5-a489-f2818c6ac702
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.stripe_card_token.field_card_token
+    - field.field.paragraph.stripe_card_token.field_default
+    - paragraphs.paragraphs_type.stripe_card_token
+id: paragraph.stripe_card_token.default
+targetEntityType: paragraph
+bundle: stripe_card_token
+mode: default
+content:
+  field_card_token:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_default:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

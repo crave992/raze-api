@@ -1,0 +1,18 @@
+uuid: a8a12440-481a-4639-b4e4-31343b50cc24
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_general_content
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.section_general_content
+target_entity_type_id: paragraph
+target_bundle: section_general_content
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,19 @@
+uuid: fcb51da0-bdae-44c1-87a0-d7596bd963b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.appointment.appointment
+    - field.storage.appointment.field_company
+id: appointment.appointment.field_company
+field_name: field_company
+entity_type: appointment
+bundle: appointment
+label: Company
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

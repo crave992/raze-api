@@ -1,0 +1,12 @@
+uuid: 19494c6c-2464-4568-9203-3cc82dd2e466
+langcode: en
+status: true
+dependencies: {  }
+id: coating_service
+label: 'Coating Service'
+traits: {  }
+locked: false
+description: ''
+variationType: coating_service
+multipleVariations: true
+injectVariationFields: true

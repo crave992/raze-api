@@ -1,0 +1,22 @@
+uuid: ce4dc174-550d-45b5-bc9e-92bcdef979ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_store_locator
+id: paragraph.section_store_locator.status
+field_name: status
+entity_type: paragraph
+bundle: section_store_locator
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

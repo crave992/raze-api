@@ -1,0 +1,10 @@
+uuid: 7cbb37ba-4312-4e1f-b2f5-8a892948221e
+langcode: en
+status: true
+dependencies: {  }
+id: feature
+label: Feature
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

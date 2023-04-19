@@ -1,0 +1,18 @@
+uuid: 19ac6f5a-0c2e-49a4-ab75-f4664f47ab57
+langcode: en
+status: true
+dependencies:
+  module:
+    - rhm_rest
+    - serialization
+    - user
+id: rhm_store_locator
+plugin_id: rhm_store_locator
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

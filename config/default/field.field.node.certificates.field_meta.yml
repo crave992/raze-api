@@ -1,0 +1,21 @@
+uuid: fb5610da-c074-462e-9e2f-1e592b37af03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta
+    - node.type.certificates
+  module:
+    - metatag
+id: node.certificates.field_meta
+field_name: field_meta
+entity_type: node
+bundle: certificates
+label: Meta
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

@@ -1,0 +1,124 @@
+uuid: 61aa802d-58d1-4747-abb3-cb3f6a966b31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_faqs
+    - paragraphs.paragraphs_type.group_image_title_description
+    - paragraphs.paragraphs_type.section_faq
+  module:
+    - entity_reference_revisions
+id: paragraph.section_faq.field_faqs
+field_name: field_faqs
+entity_type: paragraph
+bundle: section_faq
+label: FAQs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      group_image_title_description: group_image_title_description
+    negate: 0
+    target_bundles_drag_drop:
+      feature:
+        weight: 33
+        enabled: false
+      from_library:
+        weight: 34
+        enabled: false
+      group_full_stack:
+        weight: 35
+        enabled: false
+      group_image_link:
+        weight: 36
+        enabled: false
+      group_image_title:
+        weight: 37
+        enabled: false
+      group_image_title_description:
+        weight: 38
+        enabled: true
+      menu_block:
+        weight: 39
+        enabled: false
+      menu_blocks:
+        weight: 40
+        enabled: false
+      product_section_feature:
+        weight: 41
+        enabled: false
+      product_section_highlight:
+        weight: 42
+        enabled: false
+      product_section_how_it_works:
+        weight: 43
+        enabled: false
+      product_section_related:
+        weight: 44
+        enabled: false
+      section_banner:
+        weight: 45
+        enabled: false
+      section_contact_us:
+        weight: 46
+        enabled: false
+      section_cta:
+        weight: 47
+        enabled: false
+      section_explore_more:
+        weight: 48
+        enabled: false
+      section_faq:
+        weight: 49
+        enabled: false
+      section_feature_list:
+        weight: 51
+        enabled: false
+      section_featured_articles:
+        weight: 50
+        enabled: false
+      section_homepage_banner:
+        weight: 52
+        enabled: false
+      section_latest_news:
+        weight: 53
+        enabled: false
+      section_our_technology:
+        weight: 54
+        enabled: false
+      section_our_vision:
+        weight: 55
+        enabled: false
+      section_product_by_type:
+        weight: 56
+        enabled: false
+      section_product_special:
+        weight: 57
+        enabled: false
+      section_services:
+        weight: 58
+        enabled: false
+      section_slider:
+        weight: 59
+        enabled: false
+      section_solutions:
+        weight: 60
+        enabled: false
+      section_testimonials:
+        weight: 61
+        enabled: false
+      solution:
+        weight: 62
+        enabled: false
+      stripe_card_token:
+        weight: 63
+        enabled: false
+      testimonial:
+        weight: 64
+        enabled: false
+field_type: entity_reference_revisions

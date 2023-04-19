@@ -1,0 +1,10 @@
+uuid: abbbdd0a-4141-400d-87e5-887cd24bd245
+langcode: en
+status: true
+dependencies: {  }
+id: solution
+label: Solution
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

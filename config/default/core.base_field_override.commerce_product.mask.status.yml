@@ -1,0 +1,22 @@
+uuid: bc4cdfa0-7390-4b4f-8e2b-5db32f6828a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.mask
+id: commerce_product.mask.status
+field_name: status
+entity_type: commerce_product
+bundle: mask
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
